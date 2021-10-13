@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+:root {
+  background-color: rgba(83, 94, 126, 0.05);
+  --primaryColor: #8435CD;
+  --accentColor: #B50088;
+  --greyBackground: #d3d3d3;
+  --iconBackground: #B682E6;
+  --fontColour: #333;
+  font-size: 62.5%;
+  --modalOuterOpen: rgba(230, 230, 250, 0.5);
+  --borderRadius: 0.5rem;
+  --boxShadow: 0 16px 24px 2px rgba(29,17,51,.04),0 6px 32px 4px rgba(9,32,77,.12),0 8px 12px -5px rgba(29,17,51,.12);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace;
+  margin: 0;
+  padding: 0;
+  color: var(--fontColour);
+}
+
+.container {
+  height: 100vh;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem 0 1rem;
+  /* border: 2px solid blueviolet; */
+ }
+
+/* Progress Bar */
+#progressbar {
+  width: 100%;
+  height: 0.4rem;
+  background-color: var(--greyBackground);
+}
+
+#progressbar-filled {
+  width: 50%;
+  height: 0.4rem;
+  background-color: var(--primaryColor);
+}
+
+#dash-container {
+  display:flex;
+  justify-content: space-between;
+  padding: 2rem 0 2rem 0;
+  /* border: 2px solid salmon; */
+}
+
+.hidden {
+  display: none;
+}
+
+.dash-item, .counter { /* why exactly is it necessary for dash-item to be here? */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.8rem;
+}
+
+#counter {
+  min-width: 4rem;
+  color: var(--accentColor);
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  min-width: 6rem;
+  border: 2px solid var(--primaryColor);
+  border-radius: var(--borderRadius);
+  color: var(--primaryColor);
+  box-shadow: var(--boxShadow);
+}
+
+label:hover {
+  background-color: var(--greyBackground);
+  cursor:pointer;
+  transform: scale(1.03);
+  transition: transform 150ms;
+}
+
+input[type=checkbox]:checked + label {
+  background-color: var(--primaryColor);
+  color: white;
+  cursor:pointer;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.verb-container {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border-radius: var(--borderRadius);
+  background-color: white;
+  box-shadow: var(--boxShadow);
+}
+
+/* .verb-container:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+} */
+
+.verb-speaker, .verb-meaning {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.5rem;
+  background-color: var(--iconBackground);
+}
+
+.verb-speaker {
+  width: 4rem;
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
+}
+
+.verb-meaning {
+  width: 4rem;
+  border-top-right-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+}
+
+.verb-speaker:hover {
+  cursor: pointer;
+  background-color: var(--primaryColor);
+  transform: scale(1.03);
+  transition: transform 150ms;
+}
+
+.verb-meaning:hover {
+  cursor: pointer;
+  background-color: var(--primaryColor);
+  transform: scale(1.03);
+  transition: transform 150ms;
+}
+
+.verb-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.modal-outer {
+  display: grid;
+  background: var(--modalOuterOpen);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  /* Hide this modal until we need it */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.modal-outer img {
+  width: 100%;
+}
+
+.modal-outer.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-inner {
+  max-width: 95vw;
+  min-width: 400px;
+  padding: 2rem;
+  border-radius: var(--borderRadius);
+  border: 2px solid var(--primaryColor);
+  min-height: 200px;
+  background: white;
+  box-shadow: var(--boxShadow);
+  transform: translateY(-200%);
+  transition: transform 2s;
+}
+
+.modal-outer.open .modal-inner {
+  transform: translateY(0);
+}
+
+
