@@ -298,7 +298,7 @@ const dictionary = [
     verb2: 'ate',
     verb3: 'eaten',
     level: 'A1',
-    meaning: 'put food in your mouth, bite it and swallow it '
+    meaning: 'put food in your mouth, bite it and swallow it'
   },
   {
     verb1: 'fall',
@@ -1354,85 +1354,449 @@ const dictionary = [
     verb1: 'spend',
     verb2: 'spent',
     verb3: 'spent',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'give money to pay for goods, services, etc.; use time for a particular purpose; to pass time'
+  },
+  {
+    verb1: 'spill',
+    verb2: 'spillt/spilled',
+    verb3: 'spill/spilled',
+    level: 'B2',
+    meaning: 'flow over the edge of a container by accident; make liquid do this'
+  },
+  {
+    verb1: 'spin',
+    verb2: 'spun',
+    verb3: 'spun',
+    level: 'C1',
+    meaning: 'turn round and round quickly; make something do this'
+  },
+  {
+    verb1: 'spit',
+    verb2: 'spat/spit',
+    verb3: 'spat/spit',
+    level: 'C2',
+    meaning: 'force liquid, food, etc. out of your mouth'
+  },
+  {
+    verb1: 'split',
+    verb2: 'split',
+    verb3: 'split',
+    level: 'B2',
+    meaning: 'divide, or to make something divide, into two or more parts'
+  },
+  {
+    verb1: 'spoil',
+    verb2: 'spoilt/spoiled',
+    verb3: 'spoilt/spoiled',
+    level: 'B2',
+    meaning: 'change something good into something bad, unpleasant, etc.'
+  },
+  {
+    verb1: 'spread',
+    verb2: 'spread',
+    verb3: 'spread',
+    level: 'B1',
+    meaning: 'cause somebody/something to be in a number of different places; cover, or to make something cover, a larger and larger area'
+  },
+  {
+    verb1: 'spring',
+    verb2: 'sprang/sprung',
+    verb3: 'sprung',
+    level: 'B2',
+    meaning: 'move suddenly and with one quick movement in a particular direction'
   },
   {
     verb1: 'stand',
     verb2: 'stood',
     verb3: 'stood',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'be on your feet; to be in a vertical position'
   },
   {
     verb1: 'steal',
     verb2: 'stole',
     verb3: 'stolen',
-    level: 'A2'
+    level: 'A2',
+    meaning: 'take something from a person, shop, etc. without permission and without intending to return it or pay for it'
+  },
+  {
+    verb1: 'stick',
+    verb2: 'stuck',
+    verb3: 'stuck',
+    level: 'B1',
+    meaning: 'fix something to something else, usually with a sticky substance; become fixed to something in this way'
+  },
+  {
+    verb1: 'sting',
+    verb2: 'stung',
+    verb3: 'stung',
+    level: 'B2',
+    meaning: '(of an insect or plant) touch your skin or make a very small hole in it so that you feel a sharp pain'
+  },
+  {
+    verb1: 'stink',
+    verb2: 'stank/stunk',
+    verb3: 'stunk',
+    level: '?',
+    meaning: 'have a strong, unpleasant smell'
+  },
+  {
+    verb1: 'strew',
+    verb2: 'strewed',
+    verb3: 'strewn/strewed',
+    level: '?',
+    meaning: 'cover a surface with things'
+  },
+  {
+    verb1: 'stride',
+    verb2: 'strode',
+    verb3: 'stridden',
+    level: '?',
+    meaning: 'walk with long steps in a particular direction'
+  },
+  {
+    verb1: 'strike',
+    verb2: 'struck',
+    verb3: 'struck',
+    level: 'B2',
+    meaning: 'hit somebody/something hard or with force'
+  },
+  {
+    verb1: 'string',
+    verb2: 'strung',
+    verb3: 'strung',
+    level: 'A1',
+    meaning: 'put a series of small objects on string, etc.; join things together with string, etc.'
+  },
+  {
+    verb1: 'strive',
+    verb2: 'strove/strived',
+    verb3: 'striven/strived',
+    level: 'C1',
+    meaning: 'try very hard to achieve something'
+  },
+  {
+    verb1: 'sublet',
+    verb2: 'sublet',
+    verb3: 'sublet',
+    level: 'C2',
+    meaning: 'rent to somebody else all or part of a property that you rent from the owner'
+  },
+  {
+    verb1: 'swear',
+    verb2: 'swore',
+    verb3: 'sworn',
+    level: 'B2',
+    meaning: 'use rude or offensive language, usually because you are angry; make a serious promise to do something'
+  },
+  {
+    verb1: 'sweep',
+    verb2: 'swept',
+    verb3: 'swept',
+    level: 'B2',
+    meaning: 'clean a room, surface, etc. using a broom'
+  },
+  {
+    verb1: 'swell',
+    verb2: 'swelled',
+    verb3: 'swollen/swelled',
+    level: 'C2',
+    meaning: 'become larger and rounder than usual; (cause to) increase in size or amount'
   },
   {
     verb1: 'swim',
     verb2: 'swam',
     verb3: 'swum',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'move through water by moving your arms and legs, without touching the bottom'
+  },
+  {
+    verb1: 'swing',
+    verb2: 'swung',
+    verb3: 'swung',
+    level: 'C1',
+    meaning: 'move backwards or forwards or from side to side while hanging from a fixed point; make something do this'
   },
   {
     verb1: 'take',
     verb2: 'took',
     verb3: 'taken',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'carry or move something from one place to another'
   },
   {
     verb1: 'teach',
     verb2: 'taught',
     verb3: 'taught',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'help somebody learn something by giving information about it; give lessons to students in a school, college, university, etc.'
+  },
+  {
+    verb1: 'tear',
+    verb2: 'tore',
+    verb3: 'torn',
+    level: 'B2',
+    meaning: 'damage something by pulling it apart or into pieces or by cutting it on something sharp; to become damaged in this way'
   },
   {
     verb1: 'tell',
     verb2: 'told',
     verb3: 'told',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'give information to somebody by speaking or writing'
+  },
+  {
+    verb1: 'test-drive',
+    verb2: 'test-drove',
+    verb3: 'test-driven',
+    level: 'C1',
+    meaning: 'drive a vehicle that you are thinking of buying so that you can see how well it works and if you like it'
   },
   {
     verb1: 'think',
     verb2: 'thought',
     verb3: 'thought',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'have ideas, words or images in your mind'
   },
   {
     verb1: 'throw',
     verb2: 'threw',
     verb3: 'thrown',
-    level: 'A2'
+    level: 'A2',
+    meaning: 'send something from your hand through the air by moving your hand or arm quickly'
+  },
+  {
+    verb1: 'thrust',
+    verb2: 'thrust',
+    verb3: 'thrust',
+    level: '?',
+    meaning: 'push something suddenly or violently in a particular direction; move quickly and suddenly in a particular direction'
+  },
+  {
+    verb1: 'tread',
+    verb2: 'trod',
+    verb3: 'trodden/trod',
+    level: 'C2',
+    meaning: 'put your foot down while you are stepping or walking; walk somewhere'
+  },
+  {
+    verb1: 'typecast',
+    verb2: 'typecast',
+    verb3: 'typecast',
+    level: 'C2',
+    meaning: 'if an actor is typecast, they are always given the same kind of character to play'
+  },
+  {
+    verb1: 'typeset',
+    verb2: 'typeset',
+    verb3: 'typeset',
+    level: 'C2',
+    meaning: 'prepare a book, etc. for printing'
+  },
+  {
+    verb1: 'unbend',
+    verb2: 'unbent',
+    verb3: 'unbent',
+    level: '?',
+    meaning: 'make something that was bent become straight; become straight; relax and become less strict or formal in your behaviour or attitude'
+  },
+  {
+    verb1: 'unbind',
+    verb2: 'unbound',
+    verb3: 'unbound',
+    level: '?',
+    meaning: 'release someone or something from a rope, string, etc.'
+  },
+  {
+    verb1: 'underbid',
+    verb2: 'underbid',
+    verb3: 'underbid',
+    level: 'C2',
+    meaning: 'offer to do work or provide a service for a lower price than someone else'
+  },
+  {
+    verb1: 'undercut',
+    verb2: 'undercut',
+    verb3: 'undercut',
+    level: 'C2',
+    meaning: 'sell goods or services at a lower price than your competitors; make somebody/something weaker or less likely to be effective'
+  },
+  {
+    verb1: 'undergo',
+    verb2: 'underwent',
+    verb3: 'undergone',
+    level: 'A2',
+    meaning: 'experience something, especially a change or something unpleasant'
+  },
+  {
+    verb1: 'underlie',
+    verb2: 'underlay',
+    verb3: 'underlain',
+    level: 'C1',
+    meaning: 'be the basis or cause of something'
+  },
+  {
+    verb1: 'undersell',
+    verb2: 'undersold',
+    verb3: 'undersold',
+    level: 'C2',
+    meaning: 'sell goods or services at a lower price than your competitors or at a price lower than its real value'
+  },
+  {
+    verb1: 'underspend',
+    verb2: 'underspent',
+    verb3: 'underspent',
+    level: '?',
+    meaning: 'spend less than you are able to or than was planned'
   },
   {
     verb1: 'understand',
     verb2: 'understood',
     verb3: 'understood',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'know or realize how or why something happens, how it works or why it is important'
+  },
+  {
+    verb1: 'undertake',
+    verb2: 'undertook',
+    verb3: 'undertaken',
+    level: 'B2',
+    meaning: 'make yourself responsible for something and start doing it'
+  },
+  {
+    verb1: 'underwrite',
+    verb2: 'underwrote',
+    verb3: 'underwritten',
+    level: 'C2',
+    meaning: 'accept financial responsibility for an activity so that you will pay for special costs or for losses it may make'
+  },
+  {
+    verb1: 'undo',
+    verb2: 'undid',
+    verb3: 'undone',
+    level: 'B2',
+    meaning: 'cancel the effect of something; open something that is fastened, tied or wrapped'
+  },
+  {
+    verb1: 'unwind',
+    verb2: 'unwound',
+    verb3: 'unwound',
+    level: 'C2',
+    meaning: 'make something that has been wrapped into a ball or around something straight, flat or loose again'
+  },
+  {
+    verb1: 'uphold',
+    verb2: 'upheld',
+    verb3: 'upheld',
+    level: 'C1',
+    meaning: 'support something that you think is right and make sure that it continues to exist'
+  },
+  {
+    verb1: 'upset',
+    verb2: 'upset',
+    verb3: 'upset',
+    level: 'B1',
+    meaning: 'make somebody/yourself feel unhappy, anxious or annoyed; make a plan, situation, etc. go wrong; make somebody feel sick after they have eaten or drunk something'
   },
   {
     verb1: 'wake',
     verb2: 'woke',
     verb3: 'woken',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'stop sleeping; make somebody stop sleeping'
+  },
+  {
+    verb1: 'waylay',
+    verb2: 'waylaid',
+    verb3: 'waylaid',
+    level: '?',
+    meaning: 'stop somebody who is going somewhere, especially in order to talk to them or attack them'
   },
   {
     verb1: 'wear',
     verb2: 'wore',
     verb3: 'worn',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'have something on your body as a piece of clothing, a decoration, etc.'
+  },
+  {
+    verb1: 'weave',
+    verb2: 'wove',
+    verb3: 'woven',
+    level: 'C1',
+    meaning: 'make cloth, a carpet, a basket, etc. by crossing threads or narrow pieces of material across, over and under each other'
+  },
+  {
+    verb1: 'wed',
+    verb2: 'wed/wedded',
+    verb3: 'wed/wedded',
+    level: '?',
+    meaning: 'marry someone'
+  },
+  {
+    verb1: 'weep',
+    verb2: 'wept',
+    verb3: 'wept',
+    level: 'C1',
+    meaning: 'cry trears, usually because you are sad'
+  },
+  {
+    verb1: 'wet',
+    verb2: 'wet/wetted',
+    verb3: 'wet/wetted',
+    level: '?',
+    meaning: 'make something wet'
   },
   {
     verb1: 'win',
     verb2: 'won',
     verb3: 'won',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'be the most successful in a competition, race, battle, etc.'
+  },
+  {
+    verb1: 'wind',
+    verb2: 'wound',
+    verb3: 'wound',
+    level: 'B2',
+    meaning: 'wrap or twist something around itself or something else; (of a road, river, etc.) to have many bends and twists'
+  },
+  {
+    verb1: 'withdraw',
+    verb2: 'withdrew',
+    verb3: 'withdrawn',
+    level: 'C1',
+    meaning: 'move back or away from a place or situation; make somebody/something do this'
+  },
+  {
+    verb1: 'withhold',
+    verb2: 'withheld',
+    verb3: 'withheld',
+    level: 'C1',
+    meaning: 'refuse to give something to somebody; keep back'
+  },
+  {
+    verb1: 'withstand',
+    verb2: 'withstood',
+    verb3: 'withstood',
+    level: 'C2',
+    meaning: 'be strong enough not to be hurt or damaged by extreme conditions, the use of force, etc.'
+  },
+  {
+    verb1: 'wring',
+    verb2: 'wrung',
+    verb3: 'wrung',
+    level: '?',
+    meaning: 'twist and squeeze wet clothes, etc. in order to get the water out of them'
   },
   {
     verb1: 'write',
     verb2: 'wrote',
     verb3: 'written',
-    level: 'A1'
+    level: 'A1',
+    meaning: 'make letters or numbers on a surface, especially using a pen or a pencil'
   }
 ]
 
@@ -1442,4 +1806,5 @@ export default dictionary;
 // https://www.englishpage.com/irregularverbs/irregularverbs.html#a
 
 // also check out: https://en.wikipedia.org/wiki/List_of_English_irregular_verbs
+// https://en.wiktionary.org/wiki/Appendix:English_irregular_verbs
 // also the external links of it
