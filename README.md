@@ -1,23 +1,29 @@
 # IRREG
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e623a1ff-91a5-44cd-9dca-8349099b44d1/deploy-status)](https://app.netlify.com/sites/irreg/deploys)
+
 ## ABOUT
 
 This is an interactive list, and self-testing app, of English irregular verbs for learners, based on the idea of grouping the words into the six levels described by the [Common European Framework of Reference for Languages](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages).
 
-[demo](https://leventemo.github.io/irreg/)
+[demo](https://irreg.netlify.app/)
 
-principles:
-* when compiling the list of verbs:
-  + we only included what reputed dictionaries (OALD/Cambridge Dictionary) for learners of English list as word entries
-  + we included prefixed verbs when considered useful for language learning purposes
-  + that's not to say everything that is found in them is included
-* when labelling the levels:
-  + we decided to do it based on the original meaning of the verb rather than the lowest level marked in the dictionary entries
-  + eg. [beat](https://www.oxfordlearnersdictionaries.com/definition/english/beat_1?q=beat)
-    - sports: A2 – metaphorical mng
-    - orig mng: B2 – not metaphorical
-    - so "beat" got labelled as "B2" since the metaphorical mng seems to have derived from the B2 meaning
-  + in most cases, of course, the original meaning of a verb is the lowest level and metaphorical meanings tend to be marked as a higher level meanings
+# CONTENT
+
+## The list
+when compiling the list of verbs:
+* I only included what reputable dictionaries (OALD/Cambridge Dictionary) for learners of English list as word entries
+* I included prefixed verbs when considered useful for language learning purposes
+* that's not to say everything that is found in them is included
+
+## The levels
+when labelling the levels:
+* we decided to do it based on the original meaning of the verb rather than the lowest level marked in dictionary entries
+* eg. [beat](https://www.oxfordlearnersdictionaries.com/definition/english/beat_1?q=beat)
+  + sports: A2 – metaphorical mng
+  + orig mng: B2 – not metaphorical
+  + so "beat" got labelled as "B2" since the A2 metaphorical mng seems to have derived from the B2 meaning
+* in most cases, of course, the original meaning of a verb is the lowest level and metaphorical meanings tend to be marked as a higher level meanings
 
 ## TODO: CONTENT
 - [x] finish verb list
@@ -27,9 +33,11 @@ principles:
 
 ## TODO: CODE
 - [x] create 2-row dash: counter, search box, etc. below level buttons
+- [ ] set modal window margin for small devices
+- [ ] bigger font size in modals
+- [ ] level indicators to be positioned right
 - [ ] 3 verb forms in separate divs
 - [ ] alternative forms NOT with slashes
-- [ ] level indicators to be positioned right
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
 - [ ] remove event listeners when needed to be removed
 - [ ] what happens when `dictionary.js` is not loaded?
@@ -81,3 +89,4 @@ PRACTICE MODE:
 
 TEST MODE:
 * ...
+
