@@ -8,30 +8,34 @@ This is an interactive list, and self-testing app, of English irregular verbs fo
 
 [demo](https://irreg.netlify.app/)
 
-# CONTENT
+## CONTENT
 
-## The list
+### The list
+
 when compiling the list of verbs:
 * I only included what reputable dictionaries (OALD/Cambridge Dictionary) for learners of English list as word entries
 * I included prefixed verbs when considered useful for language learning purposes
 * that's not to say everything that is found in them is included
 
-## The levels
+### The levels
+
 when labelling the levels:
-* we decided to do it based on the original meaning of the verb rather than the lowest level marked in dictionary entries
+* I decided to do it based on the original meaning of the verb rather than the lowest level marked in dictionary entries
 * eg. [beat](https://www.oxfordlearnersdictionaries.com/definition/english/beat_1?q=beat)
   + sports: A2 – metaphorical mng
   + orig mng: B2 – not metaphorical
   + so "beat" got labelled as "B2" since the A2 metaphorical mng seems to have derived from the B2 meaning
 * in most cases, of course, the original meaning of a verb is the lowest level and metaphorical meanings tend to be marked as a higher level meanings
 
-## TODO: CONTENT
+### TODO: content
 - [x] finish verb list
 - [ ] label missing levels
 - [ ] include links to OALD URLs for each word
 - [ ] HU/SP translation for A1-A2
 
-## TODO: CODE
+## CODE
+
+### TODO: code
 - [x] create 2-row dash: counter, search box, etc. below level buttons
 - [ ] set modal window margin for small devices
 - [ ] bigger font size in modals
@@ -45,7 +49,7 @@ when labelling the levels:
 - [ ] TS rewrite
 - [ ] svg with a sprite: https://gomakethings.com/using-svgs/?
 
-## USER STORIES
+### User stories
 
 user can look up single verbs
 
@@ -65,7 +69,7 @@ user can choose between 3 modes:
     - feedback at the end: scores, verbs that user made a mistake on
     - app registers correct answers and doesn't use those verbs in further rounds
 
-## PSEUDO
+### Pseudo
 
 STUDY MODE:
 * on load:
