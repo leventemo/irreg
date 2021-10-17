@@ -26,7 +26,6 @@
   max-width: 80rem;
   margin: 0 auto;
   padding: 0 1rem 0 1rem;
-  /* border: 2px solid blueviolet; */
  }
 
 /* Progress Bar */
@@ -43,38 +42,33 @@
 }
 
 #dash-container {
-  display:flex;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
   padding: 2rem 0 2rem 0;
-  /* border: 2px solid salmon; */
 }
 
 .hidden {
   display: none;
 }
 
-.dash-item, .counter { /* why exactly is it necessary for dash-item to be here? */
-  display: flex;
+.dash-item, .counter {
+  display: grid;
   justify-content: center;
-  flex-direction: column;
+  align-content: center;
   font-size: 1.8rem;
+  height: 7rem;
+  color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--boxShadow);
 }
 
 #counter {
-  min-width: 4rem;
+  grid-column: 3 / 5;
   color: var(--accentColor);
-}
-
-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 7rem;
-  min-width: 4.5rem;
-  border: 2px solid var(--primaryColor);
-  border-radius: var(--borderRadius);
-  color: var(--primaryColor);
-  box-shadow: var(--boxShadow);
+  border-style: none;
+  box-shadow: none;
 }
 
 label:hover {
@@ -104,12 +98,6 @@ input[type=checkbox]:checked + label {
   background-color: white;
   box-shadow: var(--boxShadow);
 }
-
-/* .verb-container:hover {
-  cursor: pointer;
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
-} */
 
 .verb-speaker, .verb-meaning {
   width: 4rem;
@@ -188,7 +176,7 @@ input[type=checkbox]:checked + label {
   background: white;
   box-shadow: var(--boxShadow);
   transform: translateY(-200%);
-  transition: transform 2s;
+  transition: transform 1.5s;
 }
 
 .modal-outer.open .modal-inner {
