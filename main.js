@@ -1,5 +1,6 @@
 import dictionary from './dictionary.js';
 import { speakerIcon, bookIcon } from './assets.js';
+import { Utils } from './utils.js';
 
 const counter = document.querySelector('#counter');
 const listContainer = document.querySelector('.list-container');
@@ -44,7 +45,8 @@ function displayList(data) {
     result += `
       <div class="verb-container">
         <div class="verb-speaker"> ${speakerIcon}</div>
-        <div class="verb-text">${item.verb1} ${item.verb2} ${item.verb3} ${item.level}</div>
+        <div class="verb-text">${item.verb1} ${item.verb2} ${item.verb3}</div>
+        <span class="verb-level">${item.level}</span>
         <div class="verb-meaning" data-meaning="${item.meaning}">${bookIcon}</div>
       </div>
     `;
@@ -74,9 +76,9 @@ function checkboxHandler(e) {
 function speakerIconHandler(e) {
   let u = new SpeechSynthesisUtterance();
 
-  if (e.currentTarget.nextElementSibling.textContent === 'read read read A1') {
+  if (e.currentTarget.nextElementSibling.textContent === 'read read read') {
     u.text = 'read red red';
-  } else if (e.currentTarget.nextElementSibling.textContent === 'lead led led A2') {
+  } else if (e.currentTarget.nextElementSibling.textContent === 'lead led led') {
     u.text = 'leed led led';
   } else {
     u.text = e.currentTarget.nextElementSibling.textContent;
@@ -88,12 +90,13 @@ function speakerIconHandler(e) {
 
 function bookIconHandler(e) {
   //grab the verb from the DOM
-  const verbString = e.currentTarget.previousElementSibling.textContent;
+  const verbString = Utils.getPreviousSibling(e.currentTarget, '.verb-text').textContent;
+  const levelString = e.currentTarget.previousElementSibling.textContent;
   const meaningString = e.currentTarget.closest('.verb-meaning').dataset.meaning;
 
   // populate the modal with the new info
   modalInner.innerHTML = `
-    <h2>${verbString}</h2>
+    <h2>${verbString} – ${levelString}</h2>
     <p>${meaningString}</p>
   `;
   // show the modal

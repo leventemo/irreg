@@ -85,12 +85,13 @@ input[type=checkbox]:checked + label {
 }
 
 .list-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .verb-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 4rem 10fr 4rem 4rem;
   margin-bottom: 1rem;
   width: 100%;
   font-size: 1.8rem;
@@ -99,8 +100,15 @@ input[type=checkbox]:checked + label {
   box-shadow: var(--boxShadow);
 }
 
+.verb-level {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.6rem;
+  color: var(--fontColour);
+}
+
 .verb-speaker, .verb-meaning {
-  width: 4rem;
   height: 4rem;
   padding: 0.5rem;
   background-color: var(--iconBackground);

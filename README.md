@@ -32,15 +32,18 @@ when labelling the levels:
 - [ ] label missing levels
 - [ ] include links to OALD URLs for each word
 - [ ] HU/SP translation for A1-A2
+- [ ] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs> ?
 
 ## CODE
 
 ### TODO: code
 - [x] create 2-row dash: counter, search box, etc. below level buttons
-- [ ] set modal window margin for small devices
-- [ ] bigger font size in modals
-- [ ] level indicators to be positioned right
-- [ ] 3 verb forms in separate divs
+- [x] set modal window margin for small devices
+- [x] bigger font size in modals
+- [x] level indicators to be positioned right
+- [x] 3 verb forms in separate divs
+- [ ] try reverting svg icon backgrounds & paths
+- [ ] check & correct text-to-speech pronunciation problems
 - [ ] alternative forms NOT with slashes
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
 - [ ] remove event listeners when needed to be removed
