@@ -42,9 +42,10 @@ when labelling the levels:
 - [x] bigger font size in modals
 - [x] level indicators to be positioned right
 - [x] 3 verb forms in separate divs
+- [x] extract `adjustPronunciation` to `Utils.js`
+- [ ] `Util.adjustPronunciation` into a switch
 - [ ] try inverting svg icon backgrounds & paths
-- [ ] add fn to correct speech engine's pronunciation to Utils class
-- [ ] pronunciation to be corrected (verbs with no level still to be checked): upset (stress), forbade (two forms), wind (all forms)
+- [ ] pronunciation still to be corrected: verbs with no level + upset (stress), forbade (two forms), wind (all forms)
 - [ ] check & correct text-to-speech pronunciation problems
 - [ ] alternative forms NOT with slashes
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
