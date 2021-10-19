@@ -1627,7 +1627,7 @@ const dictionary = [
     verb1: 'undergo',
     verb2: 'underwent',
     verb3: 'undergone',
-    level: 'A2',
+    level: 'B2',
     meaning: 'experience something, especially a change or something unpleasant'
   },
   {
