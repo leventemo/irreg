@@ -26,8 +26,9 @@ function filterForVerbs(markedLevels) {
     allFiltered.push(...filtered);
   });
   /*   // log verbs with unmarked level
-    console.log(dictionary.filter(verb => verb.level === '?'));
-    return allFiltered.sort((a, b) => (a.verb1 > b.verb1) ? 1 : ((b.verb1 > a.verb1) ? -1 : 0)); */
+    console.log(dictionary.filter(verb => verb.level === '?')); */
+
+  return allFiltered.sort((a, b) => (a.verb1 > b.verb1) ? 1 : ((b.verb1 > a.verb1) ? -1 : 0));
 }
 
 function displayList(data) {
