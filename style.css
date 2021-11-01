@@ -65,7 +65,7 @@
 }
 
 #counter {
-  grid-column: 3 / 5;
+  grid-column: 4 / 4;
   color: var(--accentColor);
   border-style: none;
   box-shadow: none;
