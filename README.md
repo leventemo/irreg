@@ -14,7 +14,7 @@ This is an interactive list, and self-testing app, of English irregular verbs fo
 
 when compiling the list of verbs:
 * I only included what reputable dictionaries (OALD/Cambridge Dictionary) for learners of English list as word entries
-* I included prefixed verbs when considered useful for language learning purposes
+* I included compound and prefixed verbs when considered useful for language learning purposes
 * that's not to say everything that is found in them is included
 
 ### The levels
@@ -28,15 +28,22 @@ when labelling the levels:
 * in most cases, of course, the original meaning of a verb is the lowest level and metaphorical meanings tend to be marked as a higher level meanings
 
 ### TODO: content
-- [x] finish verb list
+- [x] finish verb list: <https://www.englishpage.com/irregularverbs/irregularverbs.html>
+- [x] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs>
+- [ ] check "?"-s in OALD for TOPICS again
+- [ ] check Akadémiai Kiadó ... for HU translation
+- [ ] check printed OALD
 - [ ] label missing levels
 - [ ] include links to OALD URLs for each word
 - [ ] HU/SP translation for A1-A2
-- [ ] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs> ?
 
 ## CODE
 
 ### TODO: code
+- [x] set language to English, set speaker if possible
+- [ ] implemented language setting to test with 9C1
+- [ ] use fetch rather than import for data
+- [ ] align level marker to right in modal window
 - [x] create 2-row dash: counter, search box, etc. below level buttons
 - [x] set modal window margin for small devices
 - [x] bigger font size in modals
@@ -45,7 +52,7 @@ when labelling the levels:
 - [x] extract `adjustPronunciation` to `Utils.js`
 - [ ] `Util.adjustPronunciation` into a switch
 - [ ] try inverting svg icon backgrounds & paths
-- [ ] pronunciation still to be corrected: verbs with no level + upset (stress), forbade (two forms), wind (all forms)
+- [ ] pronunciation still to be corrected: verbs with no level + upset (stress), forbade (two forms), wind (all forms), more read-compounds
 - [ ] check & correct text-to-speech pronunciation problems
 - [ ] alternative forms NOT with slashes
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
