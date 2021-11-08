@@ -26,22 +26,29 @@ when labelling the levels:
   + orig mng: B2 – not metaphorical
   + so "beat" got labelled as "B2" since the A2 metaphorical mng seems to have derived from the B2 meaning
 * in most cases, of course, the original meaning of a verb is the lowest level and metaphorical meanings tend to be marked as a higher level meanings
+* the "floodlight case": floodlight (noun) === C2 -> floodlight (verb) = C2 too
 
 ### TODO: content
 - [x] finish verb list: <https://www.englishpage.com/irregularverbs/irregularverbs.html>
 - [x] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs>
-- [ ] check "?"-s in OALD for TOPICS again
-- [ ] check Akadémiai Kiadó ... for HU translation
-- [ ] check printed OALD
-- [ ] label missing levels
+- [x] check printed OALD
+- [ ] check "floodlight cases" – see above
+- [ ] asterisk a là OALD printed? – what about text-to-speech then?
+- [ ] label missing levels OR label them lit/formal/old-fash? + rewrite code with "category" rather than "level"
 - [ ] include links to OALD URLs for each word
+- [ ] example sentences
 - [ ] HU/SP translation for A1-A2
+  + https://hu.wikipedia.org/wiki/Angol_rendhagy%C3%B3_ig%C3%A9k_list%C3%A1ja
+  + Akadémiai Kiadó
+  + https://angol-magyar-szotar.hu/angol-rendhagyo-igek.html
+  + https://www.ingyen-angol.hu/rendhagyoige1.phtml
+  + https://www.angoltanszek.hu/rendhagyo-igek-irregular-verbs/
 
 ## CODE
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
-- [ ] implemented language setting to test with 9C1
+- [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import for data
 - [ ] align level marker to right in modal window
 - [x] create 2-row dash: counter, search box, etc. below level buttons
@@ -51,9 +58,9 @@ when labelling the levels:
 - [x] 3 verb forms in separate divs
 - [x] extract `adjustPronunciation` to `Utils.js`
 - [ ] `Util.adjustPronunciation` into a switch
+- [ ] check & correct text-to-speech pronunciation problems
 - [ ] try inverting svg icon backgrounds & paths
 - [ ] pronunciation still to be corrected: verbs with no level + upset (stress), forbade (two forms), wind (all forms), more read-compounds
-- [ ] check & correct text-to-speech pronunciation problems
 - [ ] alternative forms NOT with slashes
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
 - [ ] remove event listeners when needed to be removed
@@ -102,7 +109,10 @@ STUDY MODE:
 * book events: modal windows
 
 PRACTICE MODE:
-* ...
+
+flip:
+* <https://codepen.io/MoorLex/pen/NBwNZa>
+* <https://codepen.io/stix/pen/vgYwzG>
 
 TEST MODE:
 * ...

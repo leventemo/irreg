@@ -3,7 +3,7 @@ const dictionary = [
     verb1: 'abide',
     verb2: 'abode/abided',
     verb3: 'abode/abided',
-    level: '',
+    level: 'C2',
     meaning: 'stay or live in a place'
   },
   {
@@ -18,6 +18,7 @@ const dictionary = [
     verb2: 'awoke',
     verb3: 'awoken',
     level: '?',
+    register: ['fml'],
     meaning: 'wake up; make somebody wake up'
   },
   {
@@ -32,6 +33,7 @@ const dictionary = [
     verb2: 'backlit/backlighted',
     verb3: 'backlit/backlighted',
     level: '?',
+    register: [''],
     meaning: 'shine light on something from behind'
   },
   {
@@ -67,6 +69,7 @@ const dictionary = [
     verb2: 'befell',
     verb3: 'befallen',
     level: '?',
+    register: ['lit'],
     meaning: '(of something unpleasant) happen to somebody'
   },
   {
@@ -74,6 +77,7 @@ const dictionary = [
     verb2: 'begot/begat',
     verb3: 'begot/begotten',
     level: '?',
+    register: ['fml', 'old-f', 'old use'],
     meaning: 'become the father of a child; make something happen'
   },
   {
@@ -88,6 +92,7 @@ const dictionary = [
     verb2: 'beheld',
     verb3: 'beheld',
     level: '?',
+    register: ['old use, lit'],
     meaning: 'look at or see somebody/something'
   },
   {
@@ -102,6 +107,7 @@ const dictionary = [
     verb2: 'besought/beseeched',
     verb3: 'besought/beseeched',
     level: '?',
+    register: ['fml'],
     meaning: 'ask somebody for something in an anxious way because you want or need it very much'
   },
   {
@@ -109,6 +115,7 @@ const dictionary = [
     verb2: 'beset',
     verb3: 'beset',
     level: '?',
+    register: ['fml'],
     meaning: 'affect somebody/something in an unpleasant or harmful way'
   },
   {
@@ -123,6 +130,7 @@ const dictionary = [
     verb2: 'bestrode',
     verb3: 'bestridden',
     level: '?',
+    register: ['lit'],
     meaning: 'sit with one leg on either side of something'
   },
   {
@@ -137,6 +145,7 @@ const dictionary = [
     verb2: 'betook',
     verb3: 'betaken',
     level: '?',
+    register: ['lit'],
     meaning: 'go somewhere'
   },
   {
@@ -151,6 +160,7 @@ const dictionary = [
     verb2: 'bid/bade',
     verb3: 'bid/bidden',
     level: '?',
+    register: ['fml', 'old use', 'lit'],
     meaning: 'say ‘good morning’, etc. to somebody'
   },
   {
@@ -228,6 +238,7 @@ const dictionary = [
     verb2: 'browbeat',
     verb3: 'browbeaten',
     level: '?',
+    register: [''],
     meaning: 'frighten/threaten somebody in order to make them do something'
   },
   {
@@ -298,6 +309,7 @@ const dictionary = [
     verb2: 'cleft/clove/cleaved',
     verb3: 'cleft/cloven/cleaved',
     level: '?',
+    register: ['old-f', 'lit'],
     meaning: 'split or cut something in two using something sharp and heavy; stick close to something/somebody'
   },
   {
@@ -385,6 +397,14 @@ const dictionary = [
     meaning: 'take liquid into your mouth and then down your throat into your stomach'
   },
   {
+    verb1: 'drip-feed',
+    verb2: 'drip-fed',
+    verb3: 'drip-fed',
+    level: '?',
+    register: [''],
+    meaning: 'supply liquid food, medicine, etc. slowly and continuously into somebody\'s body; give somebody something in separate small amounts'
+  },
+  {
     verb1: 'drive',
     verb2: 'drove',
     verb3: 'driven',
@@ -396,6 +416,7 @@ const dictionary = [
     verb2: 'dwelt/dwelled',
     verb3: 'dwelt/dwelled',
     level: '?',
+    register: ['fml', 'lit'],
     meaning: 'live somewhere'
   },
   {
@@ -459,7 +480,15 @@ const dictionary = [
     verb2: 'flung',
     verb3: 'flung',
     level: '?',
+    register: [''],
     meaning: 'throw or push somebody/something with force, especially because you are angry, or in a careless way'
+  },
+  {
+    verb1: 'floodlight',
+    verb2: 'floodlit',
+    verb3: 'floodlit',
+    level: 'C2',
+    meaning: 'light a place or a building using floodlights'
   },
   {
     verb1: 'fly',
@@ -473,6 +502,7 @@ const dictionary = [
     verb2: 'forbore',
     verb3: 'forborne',
     level: '?',
+    register: ['fml'],
     meaning: 'stop yourself from saying or doing something that you could or would like to say or do'
   },
   {
@@ -487,6 +517,7 @@ const dictionary = [
     verb2: 'force-fed',
     verb3: 'force-fed',
     level: '?',
+    register: [''],
     meaning: 'use force to make a person or an animal eat or drink by putting food or drink down their throat'
   },
   {
@@ -501,6 +532,7 @@ const dictionary = [
     verb2: 'forwent/forewent',
     verb3: 'forgon/foregonee',
     level: '?',
+    register: ['fml'],
     meaning: 'decide not to have or do something that you would like to have or do'
   },
   {
@@ -515,6 +547,7 @@ const dictionary = [
     verb2: 'foretold',
     verb3: 'foretold',
     level: '?',
+    register: ['lit'],
     meaning: 'know or say what will happen in the future, especially by using magic powers'
   },
   {
@@ -536,6 +569,7 @@ const dictionary = [
     verb2: 'forsook',
     verb3: 'forsaken',
     level: '?',
+    register: ['lit'],
     meaning: 'leave somebody/something, especially when you have a responsibility to stay'
   },
   {
@@ -543,9 +577,9 @@ const dictionary = [
     verb2: 'forswore',
     verb3: 'forsworn',
     level: '?',
+    register: ['fml', 'lit'],
     meaning: 'stop doing or using something; to make a promise that you will stop doing or using something'
   },
-
   {
     verb1: 'freeze',
     verb2: 'froze',
@@ -554,9 +588,16 @@ const dictionary = [
     meaning: 'turn to ice, as a result of extreme cold; make something do this'
   },
   {
+    verb1: 'gainsay',
+    verb2: 'gainsaid',
+    verb3: 'gainsaid',
+    level: 'C2',
+    meaning: 'say that something is not true; disagree with or deny something'
+  },
+  {
     verb1: 'get',
     verb2: 'got',
-    verb3: 'got',
+    verb3: 'got/gotten',
     level: 'A1',
     meaning: 'receive something; arrive at or reach a place or point; reach a particular state or condition'
   },
@@ -586,6 +627,7 @@ const dictionary = [
     verb2: 'green-lit/green-lighted',
     verb3: 'green-lit/green-lighted',
     level: '?',
+    register: [''],
     meaning: 'give permission for a project, etc. to start or continue'
   },
   {
@@ -621,9 +663,9 @@ const dictionary = [
     verb2: 'hamstrung',
     verb3: 'hamstrung',
     level: '?',
+    register: [''],
     meaning: 'prevent somebody/something from working or taking action in the way that is needed'
   },
-
   {
     verb1: 'hear',
     verb2: 'heard',
@@ -632,10 +674,18 @@ const dictionary = [
     meaning: 'be aware of sounds with your ears'
   },
   {
+    verb1: 'heave',
+    verb2: 'hove/heaved',
+    verb3: 'hove/heaved',
+    level: 'C2',
+    meaning: 'lift, pull or throw somebody/something very heavy with one great effort'
+  },
+  {
     verb1: 'hew',
     verb2: 'hewed',
     verb3: 'hewn/hewed',
     level: '?',
+    register: ['old-f', 'fml'],
     meaning: 'cut something large with a tool'
   },
   {
@@ -688,10 +738,19 @@ const dictionary = [
     meaning: 'put information into a computer'
   },
   {
+    verb1: 'inset',
+    verb2: 'inset',
+    verb3: 'inset',
+    level: '?',
+    register: [''],
+    meaning: 'fix something into the surface of something else, especially as a decoration; put a small picture, map, etc. inside the borders of a bigger one'
+  },
+  {
     verb1: 'interbreed',
     verb2: 'interbred',
     verb3: 'interbred',
     level: '?',
+    register: [''],
     meaning: 'if animals from different species interbreed, or somebody interbreeds them, they produce young together'
   },
   {
@@ -706,6 +765,7 @@ const dictionary = [
     verb2: 'interwove',
     verb3: 'interwoven',
     level: '?',
+    register: [''],
     meaning: 'twist together two or more pieces of thread, wool, etc.'
   },
   {
@@ -811,6 +871,7 @@ const dictionary = [
     verb2: 'lip-read',
     verb3: 'lip-read',
     level: '?',
+    register: [''],
     meaning: 'understand what somebody is saying by watching the way their lips move'
   },
 
@@ -854,6 +915,7 @@ const dictionary = [
     verb2: 'misheard',
     verb3: 'misheard',
     level: '?',
+    register: [''],
     meaning: 'fail to hear correctly what somebody says, so that you think they said something else'
   },
   {
@@ -861,6 +923,7 @@ const dictionary = [
     verb2: 'mishit',
     verb3: 'mishit',
     level: '?',
+    register: [''],
     meaning: '(in a game) to hit the ball badly so that it does not go where you had intended'
   },
   {
@@ -882,6 +945,7 @@ const dictionary = [
     verb2: 'misread',
     verb3: 'misread',
     level: '?',
+    register: [''],
     meaing: 'read or understand something wrongly'
   },
   {
@@ -889,6 +953,7 @@ const dictionary = [
     verb2: 'misspoke',
     verb3: 'misspoken',
     level: '?',
+    register: [''],
     meaing: 'say something in a way that is not clear or not accurate'
   },
   {
@@ -896,6 +961,7 @@ const dictionary = [
     verb2: 'misspelt/misspelled',
     verb3: 'misspelt/misspelled',
     level: '?',
+    register: [''],
     meaing: 'spell a word wrongly'
   },
   {
@@ -903,6 +969,7 @@ const dictionary = [
     verb2: 'misspent',
     verb3: 'misspent',
     level: '?',
+    register: [''],
     meaing: 'spend time or money in a careless rather than a useful way'
   },
   {
@@ -938,6 +1005,7 @@ const dictionary = [
     verb2: 'outbid',
     verb3: 'outbid',
     level: '?',
+    register: [''],
     meaning: 'offer more money than somebody else in order to buy something, for example at an auction'
   },
   {
@@ -945,6 +1013,7 @@ const dictionary = [
     verb2: 'outdid',
     verb3: 'outdone',
     level: '?',
+    register: [''],
     meaning: 'do more or better than somebody else'
   },
   {
@@ -952,6 +1021,7 @@ const dictionary = [
     verb2: 'outgrew',
     verb3: 'outgrown',
     level: '?',
+    register: [''],
     meaning: 'grow too big to be able to wear or fit into something'
   },
   {
@@ -966,6 +1036,7 @@ const dictionary = [
     verb2: 'outran',
     verb3: 'outrun',
     level: '?',
+    register: [''],
     meaning: 'run faster or further than somebody/something'
   },
   {
@@ -973,6 +1044,7 @@ const dictionary = [
     verb2: 'outsold',
     verb3: 'outsold',
     level: '?',
+    register: [''],
     meaning: 'sell more or to be sold in larger quantities than somebody/something'
   },
   {
@@ -980,6 +1052,7 @@ const dictionary = [
     verb2: 'outshone',
     verb3: 'outshone',
     level: '?',
+    register: [''],
     meaning: 'be more impressive than somebody/something; be better than somebody/something'
   },
   {
@@ -1008,6 +1081,7 @@ const dictionary = [
     verb2: 'overdrew',
     verb3: 'overdrawn',
     level: '?',
+    register: [''],
     meaning: 'take out more money from a bank account than it contains'
   },
   {
@@ -1036,6 +1110,7 @@ const dictionary = [
     verb2: 'overhung',
     verb3: 'overhang',
     level: '?',
+    register: [''],
     meaning: 'stick out over and above something else'
   },
   {
@@ -1050,6 +1125,7 @@ const dictionary = [
     verb2: 'overlaid',
     verb3: 'overlaid',
     level: '?',
+    register: [''],
     meaning: 'put something on top of a surface so as to cover it completely; lie on top of a surface'
   },
   {
@@ -1057,6 +1133,7 @@ const dictionary = [
     verb2: 'overlay',
     verb3: 'overlain',
     level: '?',
+    register: ['specialist'],
     meaning: 'lie over something'
   },
   {
@@ -1064,6 +1141,7 @@ const dictionary = [
     verb2: 'overpaid',
     verb3: 'overpaid',
     level: '?',
+    register: [''],
     meaning: 'pay somebody too much; pay somebody more than their work is worth'
   },
   {
@@ -1078,6 +1156,7 @@ const dictionary = [
     verb2: 'overran',
     verb3: 'overrun',
     level: '?',
+    register: [''],
     meaning: 'fill or spread over an area quickly, especially in large numbers'
   },
   {
@@ -1092,6 +1171,7 @@ const dictionary = [
     verb2: 'oversold',
     verb3: 'oversold',
     level: '?',
+    register: [''],
     meaning: 'sell too much or more of something than is available; say that somebody/something is better than they really are'
   },
   {
@@ -1106,6 +1186,7 @@ const dictionary = [
     verb2: 'overslept',
     verb3: 'overslept',
     level: '?',
+    register: [''],
     meaning: 'sleep longer than you intended'
   },
   {
@@ -1113,6 +1194,7 @@ const dictionary = [
     verb2: 'overspent',
     verb3: 'overspent',
     level: '?',
+    register: [''],
     meaning: 'spend too much money or more than you planned'
   },
   {
@@ -1127,6 +1209,7 @@ const dictionary = [
     verb2: 'overthought',
     verb3: 'overthought',
     level: '?',
+    register: [''],
     meaning: 'think about something too much or for too long'
   },
   {
@@ -1134,6 +1217,7 @@ const dictionary = [
     verb2: 'overthrew',
     verb3: 'overthrown',
     level: '?',
+    register: [''],
     meaning: 'remove a leader or a government from a position of power by force'
   },
   {
@@ -1141,6 +1225,7 @@ const dictionary = [
     verb2: 'overwrote',
     verb3: 'overwritten',
     level: '?',
+    register: ['computing'],
     meaning: 'replace information on the screen or in a file by putting new information over it'
   },
   {
@@ -1148,7 +1233,8 @@ const dictionary = [
     verb2: 'partook',
     verb3: 'partaken',
     level: '?',
-    meaning: 'eat or drink something especially something that is offered to you; take part in an activity'
+    register: ['old-f'],
+    meaning: 'take part in an activity'
   },
   {
     verb1: 'pay',
@@ -1169,6 +1255,7 @@ const dictionary = [
     verb2: 'preset',
     verb3: 'preset',
     level: '?',
+    register: [''],
     meaning: 'decide something in advance; set the controls of a piece of electrical equipment so that it will start to work at a particular time'
   },
   {
@@ -1225,6 +1312,7 @@ const dictionary = [
     verb2: 'redid',
     verb3: 'redone',
     level: '?',
+    register: [''],
     meaning: 'do something again or in a different way'
   },
   {
@@ -1232,6 +1320,7 @@ const dictionary = [
     verb2: 'redrew',
     verb3: 'redrawn',
     level: '?',
+    register: [''],
     meaning: 'draw something again, especially to improve it; make changes to something such as the borders of a country or region, a plan, an arrangement, etc.'
   },
   {
@@ -1239,6 +1328,7 @@ const dictionary = [
     verb2: 'reheard',
     verb3: 'reheard',
     level: '?',
+    register: ['law'],
     meaning: 'hear or consider a case again in court'
   },
   {
@@ -1246,6 +1336,7 @@ const dictionary = [
     verb2: 'relaid',
     verb3: 'relaid',
     level: '?',
+    register: [''],
     meaning: 'lay something again or in a different way'
   },
   {
@@ -1260,6 +1351,7 @@ const dictionary = [
     verb2: 'rent',
     verb3: 'rent',
     level: '?',
+    register: ['old use', 'lit'],
     meaning: 'tear something apart with force or violence'
   },
   {
@@ -1274,6 +1366,7 @@ const dictionary = [
     verb2: 'reran',
     verb3: 'rerun',
     level: '?',
+    register: [''],
     meaning: 'do something again in a similar way; show a film, television programme, etc. again; run a race again'
   },
   {
@@ -1281,6 +1374,7 @@ const dictionary = [
     verb2: 'resold',
     verb3: 'resold',
     level: '?',
+    register: [''],
     meaning: 'sell something that you have bought'
   },
   {
@@ -1288,6 +1382,7 @@ const dictionary = [
     verb2: 'reset',
     verb3: 'reset',
     level: '?',
+    register: [''],
     meaning: 'place something in the correct position again; change a machine, an instrument or a control so that it gives a different time or number or is ready to use again'
   },
   {
@@ -1298,10 +1393,19 @@ const dictionary = [
     meaning: 'take an exam or a test again, usually after failing it the first time'
   },
   {
+    verb1: 'restring',
+    verb2: 'restrung',
+    verb3: 'restrung',
+    level: '?',
+    register: [''],
+    meaning: 'fit new strings on a musical instrument such as a guitar or violin, or on a sports racket'
+  },
+  {
     verb1: 'retake',
     verb2: 'retook',
     verb3: 'retaken',
     level: '?',
+    register: [''],
     meaning: 'take an exam or a test again; take control of something such as a town again'
   },
   {
@@ -1309,6 +1413,7 @@ const dictionary = [
     verb2: 'retold',
     verb3: 'retold',
     level: '?',
+    register: [''],
     meaning: 'tell a story again, often in a different way'
   },
   {
@@ -1323,6 +1428,7 @@ const dictionary = [
     verb2: 'retrod/retreaded',
     verb3: 'retrodden/retreaded',
     level: '?',
+    register: [''],
     meaning: 'go back along a route that you have already travelled along'
   },
   {
@@ -1379,6 +1485,7 @@ const dictionary = [
     verb2: 'sawed',
     verb3: 'sawn/sawed',
     level: '?',
+    register: [''],
     meaning: 'use a saw to cut something'
   },
   {
@@ -1463,6 +1570,7 @@ const dictionary = [
     verb2: 'shat/shit/shitted',
     verb3: 'shat/shit/shitted',
     level: '?',
+    register: ['taboo', 'slang'],
     meaning: 'empty solid waste matter from the bowels'
   },
   {
@@ -1470,6 +1578,7 @@ const dictionary = [
     verb2: 'shod',
     verb3: 'shod',
     level: '?',
+    register: [''],
     meaning: 'put one or more horseshoes on a horse'
   },
   {
@@ -1505,6 +1614,7 @@ const dictionary = [
     verb2: 'sight-read',
     verb3: 'sight-read',
     level: '?',
+    register: [''],
     meaning: 'play or sing written music when you see it for the first time, without practising it first'
   },
   {
@@ -1540,6 +1650,7 @@ const dictionary = [
     verb2: 'slew',
     verb3: 'slain',
     level: '?',
+    register: ['old-f', 'lit'],
     meaning: 'kill somebody/something in a war or a fight'
   },
   {
@@ -1561,6 +1672,7 @@ const dictionary = [
     verb2: 'slung',
     verb3: 'slung',
     level: '?',
+    register: ['infml'],
     meaning: 'throw something somewhere in a careless way'
   },
   {
@@ -1568,6 +1680,7 @@ const dictionary = [
     verb2: 'slunk',
     verb3: 'slunk',
     level: '?',
+    register: [''],
     meaning: 'move somewhere very quietly and slowly, especially because you are ashamed or do not want to be seen'
   },
   {
@@ -1575,6 +1688,7 @@ const dictionary = [
     verb2: 'slit',
     verb3: 'slit',
     level: '?',
+    register: [''],
     meaning: 'make a long narrow cut or opening in something'
   },
   {
@@ -1589,6 +1703,7 @@ const dictionary = [
     verb2: 'smote',
     verb3: 'smitten',
     level: '?',
+    register: ['old use', 'lit'],
     meaning: 'hit somebody/something hard; attack or punish somebody; have a great effect on somebody, especially an unpleasant or serious one'
   },
   {
@@ -1596,13 +1711,14 @@ const dictionary = [
     verb2: 'snuck/sneaked',
     verb3: 'snuck/sneaked',
     level: '?',
+    register: [''],
     meaning: 'go somewhere secretly, trying to avoid being seen'
   },
   {
     verb1: 'sow',
     verb2: 'sowed',
     verb3: 'sown/sowed',
-    level: '?',
+    level: 'C2',
     meaning: 'plant or spread seeds in or on the ground'
   },
   {
@@ -1676,6 +1792,13 @@ const dictionary = [
     meaning: 'feed somebody, especially a baby, with a spoon; teach people something in a way that gives them too much help and does not make them think for themselves'
   },
   {
+    verb1: 'spotlight',
+    verb2: 'spotlit',
+    verb3: 'spotlit',
+    level: 'C1',
+    meaning: 'shine a spotlight on somebody/something; give special attention to a problem, situation, etc. so that people notice it'
+  },
+  {
     verb1: 'spread',
     verb2: 'spread',
     verb3: 'spread',
@@ -1701,6 +1824,7 @@ const dictionary = [
     verb2: 'stove/staved',
     verb3: 'stove/staved',
     level: '?',
+    register: [''],
     meaning: 'stave off: prevent something bad from affecting you for a period of time; to delay something; stave in: break or damage something by pushing it or hitting it from the outside'
   },
   {
@@ -1729,6 +1853,7 @@ const dictionary = [
     verb2: 'stank/stunk',
     verb3: 'stunk',
     level: '?',
+    register: ['infml'],
     meaning: 'have a strong, unpleasant smell'
   },
   {
@@ -1736,6 +1861,7 @@ const dictionary = [
     verb2: 'strewed',
     verb3: 'strewn/strewed',
     level: '?',
+    register: [''],
     meaning: 'cover a surface with things'
   },
   {
@@ -1743,6 +1869,7 @@ const dictionary = [
     verb2: 'strode',
     verb3: 'stridden',
     level: '?',
+    register: [''],
     meaning: 'walk with long steps in a particular direction'
   },
   {
@@ -1830,6 +1957,14 @@ const dictionary = [
     meaning: 'damage something by pulling it apart or into pieces or by cutting it on something sharp become damaged in this way'
   },
   {
+    verb1: 'telecast',
+    verb2: 'telecast',
+    verb3: 'telecast',
+    level: '?',
+    register: [''],
+    meaning: 'broadcast something on television'
+  },
+  {
     verb1: 'tell',
     verb2: 'told',
     verb3: 'told',
@@ -1862,6 +1997,7 @@ const dictionary = [
     verb2: 'thrust',
     verb3: 'thrust',
     level: '?',
+    register: [''],
     meaning: 'push something suddenly or violently in a particular direction; move quickly and suddenly in a particular direction'
   },
   {
@@ -1890,6 +2026,7 @@ const dictionary = [
     verb2: 'unbent',
     verb3: 'unbent',
     level: '?',
+    register: [''],
     meaning: 'make something that was bent become straight; become straight; relax and become less strict or formal in your behaviour or attitude'
   },
   {
@@ -1897,6 +2034,7 @@ const dictionary = [
     verb2: 'unbound',
     verb3: 'unbound',
     level: '?',
+    register: [''],
     meaning: 'release someone or something from a rope, string, etc.'
   },
   {
@@ -1932,6 +2070,7 @@ const dictionary = [
     verb2: 'underpaid',
     verb3: 'underpaid',
     level: '?',
+    register: [''],
     meaning: 'pay somebody too little money, especially for their work'
   },
   {
@@ -1953,6 +2092,7 @@ const dictionary = [
     verb2: 'underspent',
     verb3: 'underspent',
     level: '?',
+    register: [''],
     meaning: 'spend less than you are able to or than was planned'
   },
   {
@@ -2030,6 +2170,7 @@ const dictionary = [
     verb2: 'waylaid',
     verb3: 'waylaid',
     level: '?',
+    register: [''],
     meaning: 'stop somebody who is going somewhere, especially in order to talk to them or attack them'
   },
   {
@@ -2051,6 +2192,7 @@ const dictionary = [
     verb2: 'wed/wedded',
     verb3: 'wed/wedded',
     level: '?',
+    register: ['old-f', 'newspapers'],
     meaning: 'marry someone'
   },
   {
@@ -2065,6 +2207,7 @@ const dictionary = [
     verb2: 'wet/wetted',
     verb3: 'wet/wetted',
     level: '?',
+    register: [''],
     meaning: 'make something wet'
   },
   {
@@ -2107,6 +2250,7 @@ const dictionary = [
     verb2: 'wrung',
     verb3: 'wrung',
     level: '?',
+    register: [''],
     meaning: 'twist and squeeze wet clothes, etc. in order to get the water out of them'
   },
   {
