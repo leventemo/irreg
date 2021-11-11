@@ -63,7 +63,7 @@ export class View {
     const meaningString = e.currentTarget.closest('.verb-meaning').dataset.meaning;
     const verb1String = Utils.getPreviousSibling(e.currentTarget, '.verb-text').firstElementChild.textContent;
     const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
-    const URL = `${oaldDomain}${verb1String}?q=${verb1String}`
+    const URL = `${oaldDomain}${verb1String}`
 
     // populate the modal with the new info
     modalInner.innerHTML = `
