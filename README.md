@@ -35,7 +35,7 @@ when labelling the levels:
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] label missing levels OR label them lit/formal/old-fash? + rewrite code with "category" rather than "level"
-- [ ] include links to OALD URLs for each word
+- [x] include links to OALD URLs for each word
   + eg. <https://www.oxfordlearnersdictionaries.com/definition/english/abide?q=abide>
 - [ ] example sentences
 - [ ] HU/SP translation for A1-A2

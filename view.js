@@ -63,13 +63,14 @@ export class View {
     const meaningString = e.currentTarget.closest('.verb-meaning').dataset.meaning;
     const verb1String = Utils.getPreviousSibling(e.currentTarget, '.verb-text').firstElementChild.textContent;
     const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
-    const URL = `${oaldDomain}${verb1String}`
+    const cambridgeDomain = `https://dictionary.cambridge.org/dictionary/english/`
 
     // populate the modal with the new info
     modalInner.innerHTML = `
     <h2>${verbString} – ${levelString}</h2>
     <p>${meaningString}</p>
-    <p><a href="${URL}">Oxford Advanced Learner's Dictionary</a></p>
+    <p>see verb in <a href="${oaldDomain}${verb1String}">Oxford Advanced Learner's Dictionary</a></p>
+    <p>see verb in <a href="${cambridgeDomain}${verb1String}">Cambridge Dictionary</a></p>
     `;
     // show the modal
     modalOuter.classList.add('open');
