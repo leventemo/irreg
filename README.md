@@ -36,6 +36,7 @@ when labelling the levels:
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] label missing levels OR label them lit/formal/old-fash? + rewrite code with "category" rather than "level"
 - [ ] include links to OALD URLs for each word
+  + eg. <https://www.oxfordlearnersdictionaries.com/definition/english/abide?q=abide>
 - [ ] example sentences
 - [ ] HU/SP translation for A1-A2
   + https://hu.wikipedia.org/wiki/Angol_rendhagy%C3%B3_ig%C3%A9k_list%C3%A1ja
@@ -48,6 +49,7 @@ when labelling the levels:
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
+- [ ] finalize the verbs in 'speech.js' > `adjustPronunciation`
 - [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import for data
 - [ ] align level marker to right in modal window
@@ -56,11 +58,9 @@ when labelling the levels:
 - [x] bigger font size in modals
 - [x] level indicators to be positioned right
 - [x] 3 verb forms in separate divs
-- [x] extract `adjustPronunciation` to `Utils.js`
-- [ ] `Util.adjustPronunciation` into a switch
-- [ ] check & correct text-to-speech pronunciation problems
+- [x] extract `adjustPronunciation` to `speech.js`
+- [ ] `Util.adjustPronunciation` into a switch?
 - [ ] try inverting svg icon backgrounds & paths
-- [ ] pronunciation still to be corrected: verbs with no level + upset (stress), forbade (two forms), wind (all forms), more read-compounds
 - [ ] alternative forms NOT with slashes
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
 - [ ] remove event listeners when needed to be removed

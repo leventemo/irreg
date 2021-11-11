@@ -20,8 +20,12 @@ export class View {
       result += `
       <div class="verb-container">
         <div class="verb-speaker"> ${speakerIcon}</div>
-        <div class="verb-text">${item.verb1} ${item.verb2} ${item.verb3}</div>
-        <span class="verb-level">${item.level}</span>
+        <div class="verb-text">
+          <span id="verb1">${item.verb1} </span>
+          <span id="verb2">${item.verb2} </span>
+          <span id="verb3">${item.verb3}</span>
+        </div>
+        <div class="verb-level">${item.level}</div>
         <div class="verb-meaning" data-meaning="${item.meaning}">${bookIcon}</div>
       </div>
     `;
@@ -57,12 +61,16 @@ export class View {
     const verbString = Utils.getPreviousSibling(e.currentTarget, '.verb-text').textContent;
     const levelString = e.currentTarget.previousElementSibling.textContent;
     const meaningString = e.currentTarget.closest('.verb-meaning').dataset.meaning;
+    const verb1String = Utils.getPreviousSibling(e.currentTarget, '.verb-text').firstElementChild.textContent;
+    const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
+    const URL = `${oaldDomain}${verb1String}?q=${verb1String}`
 
     // populate the modal with the new info
     modalInner.innerHTML = `
     <h2>${verbString} – ${levelString}</h2>
     <p>${meaningString}</p>
-  `;
+    <p><a href="${URL}">Oxford Advanced Learner's Dictionary</a></p>
+    `;
     // show the modal
     modalOuter.classList.add('open');
   }
