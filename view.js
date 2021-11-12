@@ -21,9 +21,9 @@ export class View {
       <div class="verb-container">
         <div class="verb-speaker"> ${speakerIcon}</div>
         <div class="verb-text">
-          <span id="verb1">${item.verb1} </span>
-          <span id="verb2">${item.verb2} </span>
-          <span id="verb3">${item.verb3}</span>
+          <span id="verb1" class="verb-box">${item.verb1} </span>
+          <span id="verb2" class="verb-box">${item.verb2} </span>
+          <span id="verb3" class="verb-box">${item.verb3}</span>
         </div>
         <div class="verb-level">${item.level}</div>
         <div class="verb-meaning" data-meaning="${item.meaning}">${bookIcon}</div>
@@ -58,10 +58,20 @@ export class View {
     const modalInner = document.querySelector('.modal-inner');
 
     //grab the verb from the DOM
-    const verbString = Utils.getPreviousSibling(e.currentTarget, '.verb-text').textContent;
-    const levelString = e.currentTarget.previousElementSibling.textContent;
-    const meaningString = e.currentTarget.closest('.verb-meaning').dataset.meaning;
-    const verb1String = Utils.getPreviousSibling(e.currentTarget, '.verb-text').firstElementChild.textContent;
+    const verbString = Utils
+      .getPreviousSibling(e.currentTarget, '.verb-text')
+      .textContent;
+    const levelString = e.currentTarget
+      .previousElementSibling
+      .textContent;
+    const meaningString = e.currentTarget
+      .closest('.verb-meaning')
+      .dataset
+      .meaning;
+    const verb1String = Utils
+      .getPreviousSibling(e.currentTarget, '.verb-text')
+      .firstElementChild
+      .textContent;
     const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
     const cambridgeDomain = `https://dictionary.cambridge.org/dictionary/english/`
 

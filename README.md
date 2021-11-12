@@ -32,11 +32,10 @@ when labelling the levels:
 - [x] finish verb list: <https://www.englishpage.com/irregularverbs/irregularverbs.html>
 - [x] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs>
 - [x] check printed OALD
+- [x] include links to OALD/Cambridge dictionaries in modals
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] label missing levels OR label them lit/formal/old-fash? + rewrite code with "category" rather than "level"
-- [x] include links to OALD URLs for each word
-  + eg. <https://www.oxfordlearnersdictionaries.com/definition/english/abide?q=abide>
 - [ ] example sentences
 - [ ] HU/SP translation for A1-A2
   + https://hu.wikipedia.org/wiki/Angol_rendhagy%C3%B3_ig%C3%A9k_list%C3%A1ja
@@ -49,6 +48,8 @@ when labelling the levels:
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
+- [ ] finish responsive verb listing
+- [ ] style modals
 - [ ] finalize the verbs in 'speech.js' > `adjustPronunciation`
 - [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import for data
