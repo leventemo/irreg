@@ -48,6 +48,8 @@ when labelling the levels:
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
+- [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
+  <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
 - [ ] finish responsive verb listing
 - [ ] style modals
 - [ ] finalize the verbs in 'speech.js' > `adjustPronunciation`
