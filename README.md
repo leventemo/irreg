@@ -48,11 +48,13 @@ when labelling the levels:
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
+- [x] finalize 'speech.js' > `adjustPronunciation`
+- [ ] read <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
   <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
 - [ ] finish responsive verb listing
 - [ ] style modals
-- [ ] finalize the verbs in 'speech.js' > `adjustPronunciation`
+  further tweaking needed: bespoken
 - [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import for data
 - [ ] align level marker to right in modal window

@@ -530,7 +530,7 @@ const dictionary = [
   {
     verb1: 'forgo/forego',
     verb2: 'forwent/forewent',
-    verb3: 'forgone/foregonee',
+    verb3: 'forgone/foregone',
     level: '?',
     register: ['fml'],
     meaning: 'decide not to have or do something that you would like to have or do'
