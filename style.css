@@ -115,14 +115,19 @@ input[type=checkbox]:checked + label {
   background-color: var(--iconBackground);
 }
 
+.verb-speaker, .verb-meaning {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .verb-speaker {
-  width: 4rem;
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
 }
 
 .verb-meaning {
-  width: 4rem;
   border-top-right-radius: var(--borderRadius);
   border-bottom-right-radius: var(--borderRadius);
 }

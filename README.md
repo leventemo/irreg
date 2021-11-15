@@ -52,7 +52,7 @@ when labelling the levels:
 - [ ] read <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
   <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
-- [ ] finish responsive verb listing
+- [ ] fine-tune responsive line breaks on verb listing
 - [ ] style modals
   further tweaking needed: bespoken
 - [ ] test implemented language setting with 9C1
