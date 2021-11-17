@@ -35,41 +35,30 @@ when labelling the levels:
 - [x] include links to OALD/Cambridge dictionaries in modals
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
-- [ ] label missing levels OR label them lit/formal/old-fash? + rewrite code with "category" rather than "level"
 - [ ] example sentences
-- [ ] HU/SP translation for A1-A2
-  + https://hu.wikipedia.org/wiki/Angol_rendhagy%C3%B3_ig%C3%A9k_list%C3%A1ja
+- [ ] HU/SP translation for A1-A2:
   + Akadémiai Kiadó
-  + https://angol-magyar-szotar.hu/angol-rendhagyo-igek.html
-  + https://www.ingyen-angol.hu/rendhagyoige1.phtml
-  + https://www.angoltanszek.hu/rendhagyo-igek-irregular-verbs/
+  + WordReference?
 
 ## CODE
 
 ### TODO: code
 - [x] set language to English, set speaker if possible
 - [x] finalize 'speech.js' > `adjustPronunciation`
-- [x] use a lookup object in `speech` > `adjustPronunciation`
-- [ ] read <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
+- [x] set up layout on modals
+- [ ] reading:
+  + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
+  + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
-  <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
+  + <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
 - [ ] fine-tune responsive line breaks on verb listing
-- [ ] style modals
-  further tweaking needed: bespoken
 - [ ] test implemented language setting with 9C1
-- [ ] use fetch rather than import for data
-- [ ] align level marker to right in modal window
-- [x] create 2-row dash: counter, search box, etc. below level buttons
-- [x] set modal window margin for small devices
-- [x] bigger font size in modals
-- [x] level indicators to be positioned right
-- [x] 3 verb forms in separate divs
-- [x] extract `adjustPronunciation` to `speech.js`
-- [ ] `Util.adjustPronunciation` into a switch?
+- [ ] use fetch rather than import from `data.js`
+- [ ] align level marker to right in modal window - taken out of the flow with long verb forms, eg. "broadcast"
 - [ ] try inverting svg icon backgrounds & paths
-- [ ] alternative forms NOT with slashes
+- [ ] alternative forms NOT with slashes?
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
-- [ ] remove event listeners when needed to be removed
+- [ ] remove event listeners when they need to be removed
 - [ ] what happens when `dictionary.js` is not loaded?
 - [ ] transition on list appearing, disapperaring?
 - [ ] TS rewrite

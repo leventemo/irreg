@@ -117,16 +117,12 @@ input[type=checkbox]:checked + label {
 }
 
 .verb-speaker, .verb-meaning {
-  height: 4rem;
-  padding: 0.5rem;
-  background-color: var(--iconBackground);
-}
-
-.verb-speaker, .verb-meaning {
   display: flex;
   height: 100%;
   flex-direction: column;
   justify-content: center;
+  padding: 0.5rem;
+  background-color: var(--iconBackground);
 }
 
 .verb-speaker {
@@ -179,7 +175,7 @@ input[type=checkbox]:checked + label {
   transition: opacity 0.2s;
 }
 
-.modal-outer img {
+.modal-outer {
   width: 100%;
 }
 
@@ -189,10 +185,11 @@ input[type=checkbox]:checked + label {
 }
 
 .modal-inner {
-  max-width: 79rem;
+  max-width: 65rem;
   padding: 2rem;
   margin: 0 1rem 0 1rem;
   font-size: 1.3rem;
+  line-height: 2.3rem;
   border-radius: var(--borderRadius);
   border: 2px solid var(--primaryColor);
   min-height: 200px;
@@ -200,6 +197,13 @@ input[type=checkbox]:checked + label {
   box-shadow: var(--boxShadow);
   transform: translateY(-200%);
   transition: transform 1.5s;
+}
+
+/* for li elements in modal */
+li {
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
 .modal-outer.open .modal-inner {

@@ -49,7 +49,7 @@ export class View {
 
     Speech.adjustPronunciation(e, u);
 
-    u.rate = 0.7;
+    u.rate = 0.8;
     u.lang = 'en-GB';
     speechSynthesis.speak(u);
   }
@@ -78,9 +78,14 @@ export class View {
     // populate the modal with the new info
     modalInner.innerHTML = `
     <h2>${verbString} – ${levelString}</h2>
+    <hr>
     <p>${meaningString}</p>
-    <p>see verb in <a href="${oaldDomain}${verb1String}">Oxford Advanced Learner's Dictionary</a></p>
-    <p>see verb in <a href="${cambridgeDomain}${verb1String}">Cambridge Dictionary</a></p>
+    <br>
+    <p>see verb in:</p>
+    <ul>
+    <li><a href="${oaldDomain}${verb1String}">Oxford Advanced Learner's Dictionary</a></li>
+    <li><a href="${cambridgeDomain}${verb1String}">Cambridge Dictionary</a></li>
+    </ul>
     `;
     // show the modal
     modalOuter.classList.add('open');
