@@ -46,6 +46,7 @@ when labelling the levels:
 - [x] set language to English, set speaker if possible
 - [x] finalize 'speech.js' > `adjustPronunciation`
 - [x] set up layout on modals
+- [x] style links in modals
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
@@ -106,6 +107,7 @@ STUDY MODE:
 PRACTICE MODE:
 
 flip:
+* smashing magazine walkthrough
 * <https://codepen.io/MoorLex/pen/NBwNZa>
 * <https://codepen.io/stix/pen/vgYwzG>
 

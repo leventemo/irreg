@@ -27,6 +27,26 @@
   color: var(--fontColour);
 }
 
+a {
+  text-decoration: none;
+  background: linear-gradient(90deg, var(--accentColor), var(--primaryColor));
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+  text-shadow: none;
+}
+
+a:hover {
+  background: var(--primaryColor);
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+  text-shadow: none;
+  border-bottom: 1px solid var(--primaryColor);
+}
+
 .container {
   height: 100vh;
   max-width: 80rem;
@@ -185,7 +205,8 @@ input[type=checkbox]:checked + label {
 }
 
 .modal-inner {
-  max-width: 65rem;
+  max-width: 98vw;
+  min-width: 40vw;
   padding: 2rem;
   margin: 0 1rem 0 1rem;
   font-size: 1.3rem;
