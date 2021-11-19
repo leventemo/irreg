@@ -52,7 +52,7 @@ when labelling the levels:
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
   + <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
-- [ ] fine-tune responsive line breaks on verb listing
+- [ ] fine-tune responsive verb listing
 - [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import from `data.js`
 - [ ] align level marker to right in modal window - taken out of the flow with long verb forms, eg. "broadcast"
