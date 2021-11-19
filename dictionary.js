@@ -30,8 +30,8 @@ const dictionary = [
   },
   {
     verb1: 'backlight',
-    verb2: 'backlit/backlighted',
-    verb3: 'backlit/backlighted',
+    verb2: 'backlit/~ed',
+    verb3: 'backlit/~ed',
     level: '?',
     register: [''],
     meaning: 'shine light on something from behind'
@@ -104,8 +104,8 @@ const dictionary = [
   },
   {
     verb1: 'beseech',
-    verb2: 'besought/beseeched',
-    verb3: 'besought/beseeched',
+    verb2: 'besought/~ed',
+    verb3: 'besought/~ed',
     level: '?',
     register: ['fml'],
     meaning: 'ask somebody for something in an anxious way because you want or need it very much'
@@ -228,8 +228,8 @@ const dictionary = [
   },
   {
     verb1: 'broadcast',
-    verb2: 'broadcast/broadcasted',
-    verb3: 'broadcast/broadcasted',
+    verb2: 'broadcast/~ed',
+    verb3: 'broadcast/~ed',
     level: 'B2',
     meaning: 'send out programmes on television or radio'
   },
@@ -958,8 +958,8 @@ const dictionary = [
   },
   {
     verb1: 'misspell',
-    verb2: 'misspelt/misspelled',
-    verb3: 'misspelt/misspelled',
+    verb2: 'misspelt/~ed',
+    verb3: 'misspelt/~ed',
     level: '?',
     register: [''],
     meaing: 'spell a word wrongly'

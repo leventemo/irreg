@@ -10,9 +10,12 @@ export class Speech {
 
     const lookupObj = {
       'babysit babysat babysat': 'baby-sit baby-sat baby-sat',
+      'backlight backlit/~ed backlit/~ed': 'backlight backlit/backlighted backlit/backlighted',
+      'beseech besought/~ed besought/~ed': 'beseech besought/beseeched besought/beseeched',
       'bespeak bespoke bespoken': 'bespeak bespoke be spoken',
       'bestride bestrode bestridden': 'tyutyu bestrode be stridden',
       'breastfeed breastfed breastfed': 'breast feed breast fed breast fed',
+      'broadcast broadcast/~ed broadcast/~ed': 'broadcast broadcast/broadcasted broadcast/broadcasted',
       'forbear forbore forborne': 'for bear forbore forborne',
       'forbid forbade forbidden': 'forbid for baid forbidden',
       'forswear forswore forsworn': 'for swear forswore forsworn',
@@ -21,6 +24,7 @@ export class Speech {
       'lip-read lip-read lip-read': 'lip reed lip red lip red',
       'lead led led': 'leed led led',
       'misread misread misread': 'mis reed mis red mis red',
+      'misspell misspelt/~ed misspelt/~ed': 'misspell misspelt/misspelled misspelt/misspelled',
       'overfly overflew overflown': 'overfly over flew overflown',
       'overlie overlay overlain': 'over lie overlay overlain',
       'proofread proofread proofread': 'proofread proof red proof red',
