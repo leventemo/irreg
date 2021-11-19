@@ -114,6 +114,7 @@ input[type=checkbox]:checked + label {
 .list-container {
   display: grid;
   grid-template-columns: 1fr;
+  max-width: 98vw;
 }
 
 .verb-container {
@@ -124,7 +125,6 @@ input[type=checkbox]:checked + label {
   font-size: var(--verbTextFontSize);
   margin-bottom: 1rem;
   width: 100%;
-  max-width: 98vw;
   border-radius: var(--borderRadius);
   background-color: white;
   box-shadow: var(--boxShadow);
