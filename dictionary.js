@@ -1567,8 +1567,8 @@ const dictionary = [
   },
   {
     verb1: 'shit',
-    verb2: 'shat/shit/shitted',
-    verb3: 'shat/shit/shitted',
+    verb2: 'shat/shit/~ted',
+    verb3: 'shat/shit/~ted',
     level: '?',
     register: ['taboo', 'slang'],
     meaning: 'empty solid waste matter from the bowels'
