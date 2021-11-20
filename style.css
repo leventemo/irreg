@@ -14,11 +14,11 @@
   --verbTextFontSize: 1.6rem;
 }
 
-@media (max-width: 40em) {
+/* @media (max-width: 40em) {
   :root {
     --verbTextFontSize: 1.3rem;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
