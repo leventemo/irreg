@@ -1,8 +1,8 @@
 const dictionary = [
   {
     verb1: 'abide',
-    verb2: 'abode/abided',
-    verb3: 'abode/abided',
+    verb2: 'abode/~d',
+    verb3: 'abode/~d',
     level: 'C2',
     meaning: 'stay or live in a place'
   },
@@ -250,8 +250,8 @@ const dictionary = [
   },
   {
     verb1: 'burn',
-    verb2: 'burnt/burned',
-    verb3: 'burnt/burned',
+    verb2: 'burnt/~ed',
+    verb3: 'burnt/~ed',
     level: 'A2',
     meaning: 'produce flames and heat; be on fire'
   },
@@ -264,8 +264,8 @@ const dictionary = [
   },
   {
     verb1: 'bust',
-    verb2: 'bust/busted',
-    verb3: 'bust/busted',
+    verb2: 'bust/~ed',
+    verb3: 'bust/~ed',
     level: 'C1',
     meaning: 'break something; arrest somebody'
   },
@@ -306,8 +306,8 @@ const dictionary = [
   },
   {
     verb1: 'cleave',
-    verb2: 'cleft/clove/cleaved',
-    verb3: 'cleft/cloven/cleaved',
+    verb2: 'cleft/clove/~d',
+    verb3: 'cleft/cloven/~d',
     level: '?',
     register: ['old-f', 'lit'],
     meaning: 'split or cut something in two using something sharp and heavy; stick close to something/somebody'
@@ -384,8 +384,8 @@ const dictionary = [
   },
   {
     verb1: 'dream',
-    verb2: 'dreamt/dreamed',
-    verb3: 'dreamt/dreamed',
+    verb2: 'dreamt/~ed',
+    verb3: 'dreamt/~ed',
     level: 'A2',
     meaning: 'experience a series of images, events and feelings in your mind while you are asleep'
   },
@@ -413,8 +413,8 @@ const dictionary = [
   },
   {
     verb1: 'dwell',
-    verb2: 'dwelt/dwelled',
-    verb3: 'dwelt/dwelled',
+    verb2: 'dwelt/~ed',
+    verb3: 'dwelt/~ed',
     level: '?',
     register: ['fml', 'lit'],
     meaning: 'live somewhere'
@@ -522,8 +522,8 @@ const dictionary = [
   },
   {
     verb1: 'forecast',
-    verb2: 'forecast/forecasted',
-    verb3: 'forecast/forecasted',
+    verb2: 'forecast/~ed',
+    verb3: 'forecast/~ed',
     level: 'B2',
     meaning: 'say what you think will happen in the future based on information that you have now'
   },
@@ -624,8 +624,8 @@ const dictionary = [
   },
   {
     verb1: 'green-light',
-    verb2: 'green-lit/green-lighted',
-    verb3: 'green-lit/green-lighted',
+    verb2: 'green-lit/~ed',
+    verb3: 'green-lit/~ed',
     level: '?',
     register: [''],
     meaning: 'give permission for a project, etc. to start or continue'
@@ -732,8 +732,8 @@ const dictionary = [
   },
   {
     verb1: 'input',
-    verb2: 'input/inputted',
-    verb3: 'input/inputted',
+    verb2: 'input/~ted',
+    verb3: 'input/~ted',
     level: 'B2',
     meaning: 'put information into a computer'
   },
@@ -777,8 +777,8 @@ const dictionary = [
   },
   {
     verb1: 'kneel',
-    verb2: 'knelt/kneeled',
-    verb3: 'knelt/kneeled',
+    verb2: 'knelt/~ed',
+    verb3: 'knelt/~ed',
     level: 'B2',
     meaning: 'be in or move into a position where your body is supported on your knee or knees'
   },
@@ -1026,8 +1026,8 @@ const dictionary = [
   },
   {
     verb1: 'output',
-    verb2: 'output/outputted',
-    verb3: 'output/outputted',
+    verb2: 'output/~ted',
+    verb3: 'output/~ted',
     level: 'B2',
     meaning: 'supply or produce information, results, etc.'
   },
@@ -1245,8 +1245,8 @@ const dictionary = [
   },
   {
     verb1: 'plead',
-    verb2: 'pled/pleaded',
-    verb3: 'pled/pleaded',
+    verb2: 'pled/~ed',
+    verb3: 'pled/~ed',
     level: 'C1',
     meaning: 'ask somebody for something in a very strong and serious way'
   },
@@ -1268,7 +1268,7 @@ const dictionary = [
   {
     verb1: 'prove',
     verb2: 'proved',
-    verb3: 'proven/proved',
+    verb3: 'proven/~d',
     level: 'B1',
     meaning: 'use facts, evidence, etc. to show that something is true'
   },
@@ -1281,8 +1281,8 @@ const dictionary = [
   },
   {
     verb1: 'quit',
-    verb2: 'quit/quitted',
-    verb3: 'quit/quitted',
+    verb2: 'quit/~ted',
+    verb3: 'quit/~ted',
     level: 'B1',
     meaning: 'leave your job, school, etc.; stop doing something'
   },
@@ -1425,8 +1425,8 @@ const dictionary = [
   },
   {
     verb1: 'retread',
-    verb2: 'retrod/retreaded',
-    verb3: 'retrodden/retreaded',
+    verb2: 'retrod/~ed',
+    verb3: 'retrodden/~ed',
     level: '?',
     register: [''],
     meaning: 'go back along a route that you have already travelled along'
@@ -1693,8 +1693,8 @@ const dictionary = [
   },
   {
     verb1: 'smell',
-    verb2: 'smelt/smelled',
-    verb3: 'smelt/smelled',
+    verb2: 'smelt/~ed',
+    verb3: 'smelt/~ed',
     level: 'A2',
     meaning: 'have a particular smell; notice or recognize a particular smell'
   },
@@ -1708,8 +1708,8 @@ const dictionary = [
   },
   {
     verb1: 'sneak',
-    verb2: 'snuck/sneaked',
-    verb3: 'snuck/sneaked',
+    verb2: 'snuck/~ed',
+    verb3: 'snuck/~ed',
     level: '?',
     register: [''],
     meaning: 'go somewhere secretly, trying to avoid being seen'
@@ -1730,15 +1730,15 @@ const dictionary = [
   },
   {
     verb1: 'speed',
-    verb2: 'sped/speeded',
-    verb3: 'sped/speeded',
+    verb2: 'sped/~ed',
+    verb3: 'sped/~ed',
     level: 'B2',
     meaning: 'move along quickly'
   },
   {
     verb1: 'spell',
-    verb2: 'spelt/spelled',
-    verb3: 'spelt/spelled',
+    verb2: 'spelt/~ed',
+    verb3: 'spelt/~ed',
     level: 'A1',
     meaning: 'say or write the letters of a word in the correct order; form words correctly from individual letters'
   },
@@ -1751,8 +1751,8 @@ const dictionary = [
   },
   {
     verb1: 'spill',
-    verb2: 'spillt/spilled',
-    verb3: 'spill/spilled',
+    verb2: 'spilt/~ed',
+    verb3: 'spilt/~ed',
     level: 'B2',
     meaning: 'flow over the edge of a container by accident; make liquid do this'
   },
@@ -1779,8 +1779,8 @@ const dictionary = [
   },
   {
     verb1: 'spoil',
-    verb2: 'spoilt/spoiled',
-    verb3: 'spoilt/spoiled',
+    verb2: 'spoilt/~ed',
+    verb3: 'spoilt/~ed',
     level: 'B2',
     meaning: 'change something good into something bad, unpleasant, etc.'
   },
@@ -1821,8 +1821,8 @@ const dictionary = [
   },
   {
     verb1: 'stave',
-    verb2: 'stove/staved',
-    verb3: 'stove/staved',
+    verb2: 'stove/~d',
+    verb3: 'stove/~d',
     level: '?',
     register: [''],
     meaning: 'stave off: prevent something bad from affecting you for a period of time; to delay something; stave in: break or damage something by pushing it or hitting it from the outside'
@@ -1859,7 +1859,7 @@ const dictionary = [
   {
     verb1: 'strew',
     verb2: 'strewed',
-    verb3: 'strewn/strewed',
+    verb3: 'strewn/~ed',
     level: '?',
     register: [''],
     meaning: 'cover a surface with things'
@@ -1888,8 +1888,8 @@ const dictionary = [
   },
   {
     verb1: 'strive',
-    verb2: 'strove/strived',
-    verb3: 'striven/strived',
+    verb2: 'strove/~d',
+    verb3: 'striven/~d',
     level: 'C1',
     meaning: 'try very hard to achieve something'
   },
@@ -1917,7 +1917,7 @@ const dictionary = [
   {
     verb1: 'swell',
     verb2: 'swelled',
-    verb3: 'swollen/swelled',
+    verb3: 'swollen/~ed',
     level: 'C2',
     meaning: 'become larger and rounder than usual; (cause to) increase in size or amount'
   },

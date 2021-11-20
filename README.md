@@ -33,6 +33,7 @@ when labelling the levels:
 - [x] more verbs from <https://en.wikipedia.org/wiki/List_of_English_irregular_verbs>
 - [x] check printed OALD
 - [x] include links to OALD/Cambridge dictionaries in modals
+– [x] shorten -ed forms on long words + adjust pronunciation accordingly
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] example sentences
@@ -50,6 +51,7 @@ when labelling the levels:
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
+  + <https://www.voorhoede.nl/en/blog/exploring-the-web-speech-api/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
   + <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
 - [ ] fine-tune responsive verb listing
