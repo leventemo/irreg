@@ -528,9 +528,17 @@ const dictionary = [
     meaning: 'say what you think will happen in the future based on information that you have now'
   },
   {
-    verb1: 'forgo/forego',
-    verb2: 'forwent/forewent',
-    verb3: 'forgone/foregone',
+    verb1: 'forego',
+    verb2: 'forewent',
+    verb3: 'foregone',
+    level: '?',
+    register: ['fml'],
+    meaning: 'decide not to have or do something that you would like to have or do'
+  },
+  {
+    verb1: 'forgo',
+    verb2: 'forwent',
+    verb3: 'forgone',
     level: '?',
     register: ['fml'],
     meaning: 'decide not to have or do something that you would like to have or do'
