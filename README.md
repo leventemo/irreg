@@ -34,12 +34,13 @@ when labelling the levels:
 - [x] check printed OALD
 - [x] include links to OALD/Cambridge dictionaries in modals
 – [x] shorten -ed forms on long words + adjust pronunciation accordingly
+- [x] HU/SP translation for A1:
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] example sentences
-- [ ] HU/SP translation for A1-A2:
-  + Akadémiai Kiadó
-  + WordReference?
+- [ ] HU/SP translation for A2-B1:
+
+last es/hu: understand
 
 ## CODE
 

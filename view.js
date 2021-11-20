@@ -26,7 +26,7 @@ export class View {
           <span id="verb3" class="verb-box">${item.verb3}</span>
         </div>
         <div class="verb-level">${item.level}</div>
-        <div class="verb-meaning" data-meaning="${item.meaning}">${bookIcon}</div>
+        <div class="verb-meaning" data-meaning="${item.meaning}" data-hungarian="${item.hu}" data-spanish="${item.es}">${bookIcon}</div>
       </div>
     `;
       return result;
@@ -68,6 +68,14 @@ export class View {
       .closest('.verb-meaning')
       .dataset
       .meaning;
+    const huString = e.currentTarget
+      .closest('.verb-meaning')
+      .dataset
+      .hungarian;
+    const esString = e.currentTarget
+      .closest('.verb-meaning')
+      .dataset
+      .spanish;
     const verb1String = Utils
       .getPreviousSibling(e.currentTarget, '.verb-text')
       .firstElementChild
@@ -81,6 +89,8 @@ export class View {
     <hr>
     <p>${meaningString}</p>
     <br>
+    ${esString && `<p><span class="bold">ES: </span>${esString}</p>`}
+    ${huString && `<p><span class="bold">HU: </span>${huString}</p><br>`}
     <p>see verb in:</p>
     <ul>
     <li><a href="${oaldDomain}${verb1String}">Oxford Advanced Learner's Dictionary</a></li>

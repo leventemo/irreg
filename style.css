@@ -47,6 +47,10 @@ a:hover {
   border-bottom: 1px solid var(--primaryColor);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .container {
   height: 100vh;
   max-width: 80rem;
