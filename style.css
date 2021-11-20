@@ -119,7 +119,7 @@ input[type=checkbox]:checked + label {
 
 .verb-container {
   display: grid;
-  grid-template-columns: 4rem 10fr 4rem 4rem;
+  grid-template-columns: 4rem 10fr 3rem 4rem;
   justify-items: stretch;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: var(--verbTextFontSize);
