@@ -34,11 +34,11 @@ when labelling the levels:
 - [x] check printed OALD
 - [x] include links to OALD/Cambridge dictionaries in modals
 – [x] shorten -ed forms on long words + adjust pronunciation accordingly
-- [x] HU/SP translation for A1:
+- [x] HU/SP translation for A1-A2-B1:
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] example sentences
-- [ ] HU/SP translation for A2-B1:
+- [ ] HU/SP translation for B2:
 
 last es/hu: understand
 
@@ -50,6 +50,8 @@ last es/hu: understand
 - [x] set up layout on modals
 - [x] style links in modals
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
+- [ ] fix slug bugs like `dig: dig1` with a lookup object
+- [ ] bring back level marker for wider screens
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>

@@ -122,8 +122,8 @@ const dictionary = [
     verb3: 'bent',
     level: 'B1',
     meaning: 'change direction to form a curve or an angle; make something change direction in this way',
-    es: '',
-    hu: ''
+    es: 'doblar; doblarse',
+    hu: 'hajlít, görbít; hajlik, görbül'
   },
   {
     verb1: 'beseech',
@@ -212,8 +212,8 @@ const dictionary = [
     verb3: 'bitten',
     level: 'B1',
     meaning: 'use your teeth to cut into or through something',
-    es: '',
-    hu: ''
+    es: 'morder',
+    hu: 'harap'
   },
   {
     verb1: 'bleed',
@@ -221,8 +221,8 @@ const dictionary = [
     verb3: 'bled',
     level: 'B1',
     meaning: 'lose blood, especially from a wound or an injury',
-    es: '',
-    hu: ''
+    es: 'sangrar',
+    hu: 'vérzik; vért vesz, eret vág'
   },
   {
     verb1: 'blow',
@@ -230,8 +230,8 @@ const dictionary = [
     verb3: 'blown',
     level: 'A2',
     meaning: 'send out air from the mouth',
-    es: '',
-    hu: ''
+    es: 'soplar',
+    hu: 'fúj'
   },
   {
     verb1: 'bottle-feed',
@@ -311,8 +311,8 @@ const dictionary = [
     verb3: 'burnt/~ed',
     level: 'A2',
     meaning: 'produce flames and heat; be on fire',
-    es: '',
-    hu: ''
+    es: 'quemar, quemarse',
+    hu: 'éget, ég'
   },
   {
     verb1: 'burst',
@@ -365,8 +365,8 @@ const dictionary = [
     verb3: 'caught',
     level: 'A2',
     meaning: 'stop and hold a moving object or person, especially in your hands',
-    es: '',
-    hu: ''
+    es: 'coger, pillar, agarrar, atrapar',
+    hu: 'elfog, elkap, felfog'
   },
   {
     verb1: 'choose',
@@ -437,8 +437,8 @@ const dictionary = [
     verb3: 'dealt',
     level: 'A2',
     meaning: 'do business with/be involved with someone or something; give cards to each player in a game of cards',
-    es: '',
-    hu: ''
+    es: 'tratar, lidiar con; traficar, repartir',
+    hu: 'foglalkozik valamivel, bánik valakivel; kereskedik, oszt'
   },
   {
     verb1: 'dig',
@@ -482,8 +482,8 @@ const dictionary = [
     verb3: 'dreamt/~ed',
     level: 'A2',
     meaning: 'experience a series of images, events and feelings in your mind while you are asleep',
-    es: '',
-    hu: ''
+    es: 'soñar',
+    hu: 'álmodik; álmodozik, ábrándozik'
   },
   {
     verb1: 'drink',
@@ -545,8 +545,8 @@ const dictionary = [
     verb3: 'fed',
     level: 'A2',
     meaning: 'give food to a person or an animal',
-    es: '',
-    hu: ''
+    es: 'alimentar, dar de comer a',
+    hu: 'táplál, etet'
   },
   {
     verb1: 'feel',
@@ -563,8 +563,8 @@ const dictionary = [
     verb3: 'fought',
     level: 'A2',
     meaning: 'take part in a war or battle against an enemy',
-    es: '',
-    hu: ''
+    es: 'luchar, pelear, combatir',
+    hu: 'harcol, küzd, verekszik'
   },
   {
     verb1: 'find',
@@ -581,8 +581,8 @@ const dictionary = [
     verb3: 'fit/fitted',
     level: 'A2',
     meaning: 'be the right shape and size for somebody/something',
-    es: '',
-    hu: ''
+    es: 'quedar, caber; ajustar(se); instalar',
+    hu: 'megfelel, alkalmas; illeszt; összeszerel'
   },
   {
     verb1: 'flee',
@@ -734,8 +734,8 @@ const dictionary = [
     verb3: 'frozen',
     level: 'B1',
     meaning: 'turn to ice, as a result of extreme cold; make something do this',
-    es: '',
-    hu: ''
+    es: 'congelar; congelarse',
+    hu: 'fagyaszt, befagyaszt; megfagy, befagy'
   },
   {
     verb1: 'gainsay',
@@ -815,8 +815,8 @@ const dictionary = [
     verb3: 'hung',
     level: 'B1',
     meaning: 'attach something, or to be attached, at the top so that the lower part is free or loose',
-    es: '',
-    hu: ''
+    es: 'colgar; flotar sobre',
+    hu: 'felakaszt, felfüggeszt; lóg, függ, csüng'
   },
   {
     verb1: 'have',
@@ -869,8 +869,8 @@ const dictionary = [
     verb3: 'hidden',
     level: 'A2',
     meaning: 'go somewhere or put/keep somebody/something in a place where they/it cannot be seen or found',
-    es: '',
-    hu: ''
+    es: 'esconder(se)',
+    hu: 'elrejt, eldug; elbújik'
   },
   {
     verb1: 'hit',
@@ -878,8 +878,8 @@ const dictionary = [
     verb3: 'hit',
     level: 'A2',
     meaning: 'bring your hand, or an object you are holding, against somebody/something quickly and with force',
-    es: '',
-    hu: ''
+    es: 'pegar, golpear(se)',
+    hu: '(meg)üt, eltalál'
   },
   {
     verb1: 'hold',
@@ -887,8 +887,8 @@ const dictionary = [
     verb3: 'held',
     level: 'A2',
     meaning: 'have somebody/something in your hand, arms, etc.',
-    es: '',
-    hu: ''
+    es: 'agarrar',
+    hu: 'tart, fog'
   },
   {
     verb1: 'house-sit',
@@ -905,8 +905,8 @@ const dictionary = [
     verb3: 'hurt',
     level: 'A2',
     meaning: 'cause physical pain to somebody/yourself; injure somebody/yourself; feel painful',
-    es: '',
-    hu: ''
+    es: 'doler; hacer daño',
+    hu: 'fáj; fájdalmat okoz, megsebez, megsért'
   },
   {
     verb1: 'inlay',
@@ -1004,8 +1004,8 @@ const dictionary = [
     verb3: 'laid',
     level: 'B1',
     meaning: 'put somebody/something in a particular position, especially when it is done gently or carefully',
-    es: '',
-    hu: ''
+    es: 'poner, extender',
+    hu: 'fektet, rak, tesz, helyez'
   },
   {
     verb1: 'lead',
@@ -1013,8 +1013,8 @@ const dictionary = [
     verb3: 'led',
     level: 'A2',
     meaning: 'go with or in front of a person or an animal to show the way or to make them go in the right direction',
-    es: '',
-    hu: ''
+    es: 'guiar, dirigir; llevar, conducir',
+    hu: 'vezet, irányít; visz valahova, valamihez vezet'
   },
   {
     verb1: 'lean',
@@ -1058,8 +1058,8 @@ const dictionary = [
     verb3: 'lent',
     level: 'A2',
     meaning: 'give something to somebody or allow them to use something that belongs to you, which they have to return to you later',
-    es: '',
-    hu: ''
+    es: 'dar préstamo, prestar, dar',
+    hu: 'kölcsöad, kölcsönöz'
   },
   {
     verb1: 'let',
@@ -1067,8 +1067,8 @@ const dictionary = [
     verb3: 'let',
     level: 'B1',
     meaning: 'give somebody permission to do something; allow somebody to do something or something to happen without trying to stop it',
-    es: '',
-    hu: ''
+    es: 'dejar, permitir',
+    hu: 'hagy, eltűr, megenged'
   },
   {
     verb1: 'lie',
@@ -1085,8 +1085,8 @@ const dictionary = [
     verb3: 'lit',
     level: 'A2',
     meaning: 'make something start to burn; start to burn',
-    es: '',
-    hu: ''
+    es: 'iluminar; encender',
+    hu: 'világít; meggyújt'
   },
   {
     verb1: 'lip-read',
@@ -1572,8 +1572,8 @@ const dictionary = [
     verb3: 'proven/~d',
     level: 'B1',
     meaning: 'use facts, evidence, etc. to show that something is true',
-    es: '',
-    hu: ''
+    es: 'probar; resultar',
+    hu: 'bizonyít, igazol; bizonyul, mutatkozik'
   },
   {
     verb1: 'put',
@@ -1590,8 +1590,8 @@ const dictionary = [
     verb3: 'quit/~ted',
     level: 'B1',
     meaning: 'leave your job, school, etc.; stop doing something',
-    es: '',
-    hu: ''
+    es: 'parar, dejar, renunciar',
+    hu: 'abbahagy, otthagy, felmond'
   },
   {
     verb1: 'read',
@@ -1806,8 +1806,8 @@ const dictionary = [
     verb3: 'rung',
     level: 'A2',
     meaning: 'if you ring a bell or if a bell rings, it produces a sound',
-    es: '',
-    hu: ''
+    es: 'sonar, timbrar; hacer sonar',
+    hu: 'csenget, harangoz; szól, cseng'
   },
   {
     verb1: 'rise',
@@ -1815,8 +1815,8 @@ const dictionary = [
     verb3: 'risen',
     level: 'A2',
     meaning: 'come or go upwards; reach a higher level or position; increase in amount or number',
-    es: '',
-    hu: ''
+    es: 'subir, crecer; ponerse en pie',
+    hu: 'emelkedik, növekedik; felkel, talpra áll'
   },
   {
     verb1: 'run',
@@ -1887,8 +1887,8 @@ const dictionary = [
     verb3: 'set',
     level: 'B1',
     meaning: 'prepare or arrange something so that it is ready for use or in position',
-    es: '',
-    hu: ''
+    es: 'poner, colocar; fijar, marcar',
+    hu: 'tesz, helyez; beállít, kijelöl'
   },
   {
     verb1: 'sew',
@@ -1905,8 +1905,8 @@ const dictionary = [
     verb3: 'shaken',
     level: 'A2',
     meaning: 'move or make somebody/something move with short quick movements from side to side or up and down',
-    es: '',
-    hu: ''
+    es: 'agitar; temblar',
+    hu: 'ráz; rázkódik, remeg'
   },
   {
     verb1: 'shear',
@@ -1932,8 +1932,8 @@ const dictionary = [
     verb3: 'shone',
     level: 'B1',
     meaning: 'produce or reflect light; be bright',
-    es: '',
-    hu: ''
+    es: 'brillar',
+    hu: 'fénylik, ragyog; fényesít'
   },
   {
     verb1: 'shit',
@@ -1959,8 +1959,8 @@ const dictionary = [
     verb3: 'shot',
     level: 'B1',
     meaning: 'fire a gun or other weapon; fire something from a weapon',
-    es: '',
-    hu: ''
+    es: 'disparar, tirar, fusilar; rodar, tomar',
+    hu: 'lő, lelő, kivégez; filmez, fotóz'
   },
   {
     verb1: 'show',
@@ -1986,8 +1986,8 @@ const dictionary = [
     verb3: 'shut',
     level: 'A2',
     meaning: 'close something; become closed',
-    es: '',
-    hu: ''
+    es: 'cerrar; cerrarse',
+    hu: 'becsuk, bezár; becsukódik, bezárul'
   },
   {
     verb1: 'sight-read',
@@ -2022,8 +2022,8 @@ const dictionary = [
     verb3: 'sunk',
     level: 'B1',
     meaning: 'go down below the surface or towards the bottom of a liquid or soft substance',
-    es: '',
-    hu: ''
+    es: 'hundir; hundirse',
+    hu: 'elsüllyeszt; elsüllyed, lemerül'
   },
   {
     verb1: 'sit',
@@ -2094,8 +2094,8 @@ const dictionary = [
     verb3: 'smelt/~ed',
     level: 'A2',
     meaning: 'have a particular smell; notice or recognize a particular smell',
-    es: '',
-    hu: ''
+    es: 'oler; tener olor',
+    hu: 'szagol; szaga van'
   },
   {
     verb1: 'smite',
@@ -2229,8 +2229,8 @@ const dictionary = [
     verb3: 'spread',
     level: 'B1',
     meaning: 'cause somebody/something to be in a number of different places; cover, or to make something cover, a larger and larger area',
-    es: '',
-    hu: ''
+    es: 'extender; extenderse',
+    hu: 'kitár, elterjeszt; (ki)terjed, elterül'
   },
   {
     verb1: 'spring',
@@ -2265,8 +2265,8 @@ const dictionary = [
     verb3: 'stolen',
     level: 'A2',
     meaning: 'take something from a person, shop, etc. without permission and without intending to return it or pay for it',
-    es: '',
-    hu: ''
+    es: 'robar',
+    hu: 'lop'
   },
   {
     verb1: 'stick',
@@ -2274,8 +2274,8 @@ const dictionary = [
     verb3: 'stuck',
     level: 'B1',
     meaning: 'fix something to something else, usually with a sticky substance; become fixed to something in this way',
-    es: '',
-    hu: ''
+    es: 'clavar, meter; pegar; pegarse',
+    hu: 'szúr, (rá)tűz; ragaszt, (oda)ragad'
   },
   {
     verb1: 'sting',
@@ -2465,8 +2465,8 @@ const dictionary = [
     verb3: 'thrown',
     level: 'A2',
     meaning: 'send something from your hand through the air by moving your hand or arm quickly',
-    es: '',
-    hu: ''
+    es: 'tirar, lanzar, echar',
+    hu: 'dob, vet, hajít'
   },
   {
     verb1: 'thrust',
@@ -2672,8 +2672,8 @@ const dictionary = [
     verb3: 'upset',
     level: 'B1',
     meaning: 'make somebody/yourself feel unhappy, anxious or annoyed; make a plan, situation, etc. go wrong; make somebody feel sick after they have eaten or drunk something',
-    es: '',
-    hu: ''
+    es: 'molestar',
+    hu: 'felizgat, felzaklat; megzavar, meghiúsít; megárt valakinek'
   },
   {
     verb1: 'wake',

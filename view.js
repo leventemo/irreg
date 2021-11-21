@@ -25,7 +25,7 @@ export class View {
           <span id="verb2">${item.verb2} </span>
           <span id="verb3">${item.verb3}</span>
         </div>
-        <div class="verb-level hidden">${item.level}</div>
+        <div class="verb-level">${item.level}</div>
         <div class="verb-meaning" data-meaning="${item.meaning}" data-hungarian="${item.hu}" data-spanish="${item.es}">${bookIcon}</div>
       </div>
     `;
