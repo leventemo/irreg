@@ -1036,8 +1036,8 @@ const dictionary = [
   },
   {
     verb1: 'learn',
-    verb2: 'learnt/learned',
-    verb3: 'learnt/learned',
+    verb2: 'learnt/~ed',
+    verb3: 'learnt/~ed',
     level: 'A1',
     meaning: 'gain knowledge or skill by studying, from experience, from being taught, etc.; study and repeat something in order to be able to remember it',
     es: 'aprender, memorizar',
@@ -1965,7 +1965,7 @@ const dictionary = [
   {
     verb1: 'show',
     verb2: 'showed',
-    verb3: 'shown/showed',
+    verb3: 'shown/~ed',
     level: 'A1',
     meaning: 'let somebody see something',
     es: 'monstar, ensegñar',
