@@ -58,7 +58,7 @@ const dictionary = [
     verb2: 'bore',
     verb3: 'borne',
     level: 'B2',
-    meaning: 'accept, deal with; responsible for something; support weight',
+    meaning: 'accept, deal with; take responsibility for something; support weight',
     es: '',
     hu: ''
   },
@@ -249,7 +249,7 @@ const dictionary = [
     level: 'A1',
     meaning: 'be damaged and separated into two or more parts, as a result of force; damage something in this way',
     es: 'romper, romperse',
-    hu: '(össze)tör; elront'
+    hu: '(össze)tör, elront; eltörik, elromlik'
   },
   {
     verb1: 'breastfeed',
@@ -312,7 +312,7 @@ const dictionary = [
     level: 'A2',
     meaning: 'produce flames and heat; be on fire',
     es: 'quemar, quemarse',
-    hu: 'éget, ég'
+    hu: 'éget; ég'
   },
   {
     verb1: 'burst',
@@ -825,7 +825,7 @@ const dictionary = [
     level: 'A1',
     meaning: 'own, hold or possess something',
     es: 'tener',
-    hu: 'van valamije, bír valamivel'
+    hu: 'van valamije, birtokol valamit, bír valamivel'
   },
   {
     verb1: 'hamstring',
@@ -870,7 +870,7 @@ const dictionary = [
     level: 'A2',
     meaning: 'go somewhere or put/keep somebody/something in a place where they/it cannot be seen or found',
     es: 'esconder(se)',
-    hu: 'elrejt, eldug; elbújik'
+    hu: 'elrejt, eldug; elrejtőzik, elbújik'
   },
   {
     verb1: 'hit',
@@ -1059,7 +1059,7 @@ const dictionary = [
     level: 'A2',
     meaning: 'give something to somebody or allow them to use something that belongs to you, which they have to return to you later',
     es: 'dar préstamo, prestar, dar',
-    hu: 'kölcsöad, kölcsönöz'
+    hu: 'kölcsönad'
   },
   {
     verb1: 'let',
@@ -1573,7 +1573,7 @@ const dictionary = [
     level: 'B1',
     meaning: 'use facts, evidence, etc. to show that something is true',
     es: 'probar; resultar',
-    hu: 'bizonyít, igazol; bizonyul, mutatkozik'
+    hu: 'bizonyít, igazol; valamilyennek bizonyul'
   },
   {
     verb1: 'put',
@@ -2158,7 +2158,7 @@ const dictionary = [
     level: 'A1',
     meaning: 'give money to pay for goods, services, etc.; use time for a particular purpose; pass time',
     es: 'gastar dinero; pasar tiempo',
-    hu: 'pénzt költ, időt tölt'
+    hu: 'pénzt költ; időt tölt'
   },
   {
     verb1: 'spill',
@@ -2275,7 +2275,7 @@ const dictionary = [
     level: 'B1',
     meaning: 'fix something to something else, usually with a sticky substance; become fixed to something in this way',
     es: 'clavar, meter; pegar; pegarse',
-    hu: 'szúr, (rá)tűz; ragaszt, (oda)ragad'
+    hu: 'szúr, (rá)tűz, ragaszt; (oda)ragad'
   },
   {
     verb1: 'sting',
@@ -2456,8 +2456,6 @@ const dictionary = [
     meaning: 'have ideas, words or images in your mind',
     es: 'pensar, considerar',
     hu: 'gondolkodik; gondol, úgy vél',
-    es: '',
-    hu: ''
   },
   {
     verb1: 'throw',
@@ -2682,7 +2680,7 @@ const dictionary = [
     level: 'A1',
     meaning: 'stop sleeping; make somebody stop sleeping',
     es: 'despertar, despertarse',
-    hu: 'felébreszt, felébred'
+    hu: 'felébreszt; felébred'
   },
   {
     verb1: 'waylay',

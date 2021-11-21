@@ -50,6 +50,7 @@ last es/hu: understand
 - [x] set up layout on modals
 - [x] style links in modals
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
+- [ ] for(e)go back in one item + pronunciation accordingly
 - [ ] fix slug bugs like `dig: dig1` with a lookup object
 - [ ] bring back level marker for wider screens
 - [ ] reading:
