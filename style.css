@@ -178,10 +178,7 @@ input[type=checkbox]:checked + label {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-}
-
-.verb-box {
-  padding: 0 0.6rem 0 0.6rem;
+  padding-left: 0.8rem;
 }
 
 .modal-outer {

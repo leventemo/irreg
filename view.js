@@ -21,9 +21,9 @@ export class View {
       <div class="verb-container">
         <div class="verb-speaker"> ${speakerIcon}</div>
         <div class="verb-text">
-          <span id="verb1" class="verb-box">${item.verb1} </span>
-          <span id="verb2" class="verb-box">${item.verb2} </span>
-          <span id="verb3" class="verb-box">${item.verb3}</span>
+          <span id="verb1">${item.verb1} </span>
+          <span id="verb2">${item.verb2} </span>
+          <span id="verb3">${item.verb3}</span>
         </div>
         <div class="verb-level">${item.level}</div>
         <div class="verb-meaning" data-meaning="${item.meaning}" data-hungarian="${item.hu}" data-spanish="${item.es}">${bookIcon}</div>
