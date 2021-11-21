@@ -49,13 +49,13 @@ last es/hu: understand
 - [x] finalize 'speech.js' > `adjustPronunciation`
 - [x] set up layout on modals
 - [x] style links in modals
+- [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
   + <https://www.voorhoede.nl/en/blog/exploring-the-web-speech-api/>
 - [ ] `speech.js` > `adjustPronunciation` > `const elementText = ...` do it with `reduce()`
   + <https://stackoverflow.com/questions/38270089/reduce-array-to-a-single-string>
-- [ ] fine-tune responsive verb listing
 - [ ] test implemented language setting with 9C1
 - [ ] use fetch rather than import from `data.js`
 - [ ] align level marker to right in modal window - taken out of the flow with long verb forms, eg. "broadcast"
