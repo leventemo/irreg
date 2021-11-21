@@ -55,7 +55,7 @@ a:hover {
   height: 100vh;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.8rem 0 0.8rem;
  }
 
 /* Progress Bar */
@@ -182,6 +182,7 @@ input[type=checkbox]:checked + label {
 
 .verb-box {
   padding-left: 1rem;
+  broder: 1px solid red;
 }
 
 .modal-outer {

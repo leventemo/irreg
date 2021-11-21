@@ -276,9 +276,7 @@ const dictionary = [
     level: 'A1',
     meaning: 'come to a place with somebody/something',
     es: 'llevar, traer',
-    hu: 'hoz; előidéz, okoz',
-    es: '',
-    hu: ''
+    hu: 'hoz; előidéz, okoz'
   },
   {
     verb1: 'broadcast',
