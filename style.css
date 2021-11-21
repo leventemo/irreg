@@ -14,11 +14,11 @@
   --verbTextFontSize: 1.6rem;
 }
 
-@media (max-width: 40em) {
+/* @media (max-width: 40em) {
   :root {
     --verbTextFontSize: 1.4rem;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -137,7 +137,6 @@ input[type=checkbox]:checked + label {
 .verb-level {
   display: grid;
   align-content: center;
-  padding-left: 0;
   color: var(--fontColour);
 }
 
