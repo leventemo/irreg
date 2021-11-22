@@ -1380,7 +1380,7 @@ const dictionary = [
   {
     verb1: 'overhang',
     verb2: 'overhung',
-    verb3: 'overhang',
+    verb3: 'overhung',
     level: '?',
     meaning: 'stick out over and above something else',
     es: '',

@@ -53,6 +53,7 @@ last es/hu: understand
 - [ ] for(e)go back in one item + pronunciation accordingly
 - [ ] fix slug bugs like `dig: dig1` with a lookup object
 - [ ] bring back level marker for wider screens
+- [ ] optimize text-to-speech for Android
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
