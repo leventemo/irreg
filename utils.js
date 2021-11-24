@@ -1,4 +1,4 @@
-import dictionary from './dictionary.js';
+import verbList from './verbList.js';
 
 export class Utils {
   static scanForChecked() {
@@ -13,11 +13,11 @@ export class Utils {
     let filtered = [];
     const allFiltered = [];
     markedLevels.forEach(level => {
-      filtered = dictionary.filter(verb => verb.level === level);
+      filtered = verbList.filter(verb => verb.level === level);
       allFiltered.push(...filtered);
     });
     /*   // log verbs with unmarked level
-      console.log(dictionary.filter(verb => verb.level === '?')); */
+      console.log(verbList.filter(verb => verb.level === '?')); */
 
     return allFiltered.sort((a, b) => (a.verb1 > b.verb1) ? 1 : ((b.verb1 > a.verb1) ? -1 : 0));
   }

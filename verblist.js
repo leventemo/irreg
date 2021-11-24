@@ -1,4 +1,4 @@
-const dictionary = [
+const verbList = [
   {
     verb1: 'abide',
     verb2: 'abode/~d',
@@ -657,18 +657,9 @@ const dictionary = [
     hu: ''
   },
   {
-    verb1: 'forego',
-    verb2: 'forewent',
-    verb3: 'foregone',
-    level: '?',
-    meaning: 'decide not to have or do something that you would like to have or do',
-    es: '',
-    hu: ''
-  },
-  {
-    verb1: 'forgo',
-    verb2: 'forwent',
-    verb3: 'forgone',
+    verb1: 'for(e)go',
+    verb2: 'for(e)went',
+    verb3: 'for(e)gone',
     level: '?',
     meaning: 'decide not to have or do something that you would like to have or do',
     es: '',
@@ -2801,4 +2792,4 @@ const dictionary = [
   }
 ]
 
-export default dictionary;
+export default verbList;

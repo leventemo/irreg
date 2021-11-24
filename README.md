@@ -50,8 +50,11 @@ last es/hu: understand
 - [x] set up layout on modals
 - [x] style links in modals
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
-- [ ] for(e)go back in one item + pronunciation accordingly
 - [ ] fix slug bugs like `dig: dig1` with a lookup object
+* checked links:
+  + A1: be – cost
+* slugbugs found:
+  * A1 can OALD: /can-can1?q=can
 - [ ] bring back level marker for wider screens
 - [ ] optimize text-to-speech for Android
 - [ ] reading:
@@ -67,7 +70,7 @@ last es/hu: understand
 - [ ] alternative forms NOT with slashes?
 - [ ] if Web Speech API is not supported, still show verb list but include a warning msg: "speaker icons aren't working"
 - [ ] remove event listeners when they need to be removed
-- [ ] what happens when `dictionary.js` is not loaded?
+- [ ] what happens when `verblist.js` is not loaded?
 - [ ] transition on list appearing, disapperaring?
 - [ ] TS rewrite
 - [ ] svg with a sprite: https://gomakethings.com/using-svgs/?
@@ -100,7 +103,7 @@ STUDY MODE:
   + run the whole script once with empty values and display buttons + instructions: "Click to select"
 * parse for checked levels: call `scanForChecked()`
   + return an array of checked levels: `checkedLevels`
-* filter `dictionary` for the selected verb objects using `checkedLevels`: call `filterForVerbs`
+* filter `verbList` for the selected verb objects using `checkedLevels`: call `filterForVerbs`
   + create an array of the required verb objects: `verbsArray`
   + use `verbsArray` to calculate the number of hits
   + sort `verbsArray`

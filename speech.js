@@ -26,6 +26,7 @@ export class Speech {
       'forbear forbore forborne': 'for bear forbore forborne',
       'forbid forbade forbidden': 'forbid for baid forbidden',
       'forecast forecast/~ed forecast/~ed': 'forecast forecast/forecasted forecast/forecasted',
+      'for(e)go for(e)went for(e)gone': 'forego forewent foregone',
       'forswear forswore forsworn': 'for swear forswore forsworn',
       'gainsay gainsaid gainsaid': 'gainsay gain said gain said',
       'green-light green-lit/~ed green-lit/~ed': 'green-light green-lit/green-lighted green-lit/green-lighted',
