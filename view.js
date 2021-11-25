@@ -79,7 +79,21 @@ export class View {
     const verb1String = Utils
       .getPreviousSibling(e.currentTarget, '.verb-text')
       .firstElementChild
-      .textContent;
+      .textContent
+      .trim();
+
+    const oaldSlugLookup = {
+      /* A1 */
+      'can': 'can1',
+      'cost': 'cost_2',
+      'do': 'do1_1',
+      'drink': 'drink_2',
+      'lie': 'lie1_1'
+    }
+
+    const oaldSlug = oaldSlugLookup[verb1String] || verb1String;
+    const cambridgeSlug = verb1String;
+
     const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
     const cambridgeDomain = `https://dictionary.cambridge.org/dictionary/english/`
 
@@ -93,8 +107,8 @@ export class View {
     ${huString && `<p><span class="bold">HU: </span>${huString}</p><br>`}
     <p>see verb in:</p>
     <ul>
-    <li><a href="${oaldDomain}${verb1String}">Oxford Advanced Learner's Dictionary</a></li>
-    <li><a href="${cambridgeDomain}${verb1String}">Cambridge Dictionary</a></li>
+    <li><a href="${oaldDomain}${oaldSlug}">Oxford Advanced Learner's Dictionary</a></li>
+    <li><a href="${cambridgeDomain}${cambridgeSlug}">Cambridge Dictionary</a></li>
     </ul>
     `;
     // show the modal

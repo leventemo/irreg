@@ -50,11 +50,10 @@ last es/hu: understand
 - [x] set up layout on modals
 - [x] style links in modals
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
-- [ ] fix slug bugs like `dig: dig1` with a lookup object
-* checked links:
-  + A1: be – cost
-* slugbugs found:
-  * A1 can OALD: /can-can1?q=can
+- [ ] fix slug bugs like `dig: dig1` with a lookup object – checked links: A1: be – make
+– [ ] include slugs in `verbList`?
+
+
 - [ ] bring back level marker for wider screens
 - [ ] optimize text-to-speech for Android
 - [ ] reading:
