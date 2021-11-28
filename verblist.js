@@ -1072,8 +1072,8 @@ const verbList = [
   },
   {
     verb1: 'light',
-    verb2: 'lit',
-    verb3: 'lit',
+    verb2: 'lit/~ed',
+    verb3: 'lit/~ed',
     level: 'A2',
     meaning: 'make something start to burn; start to burn',
     es: 'iluminar; encender',

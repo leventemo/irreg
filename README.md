@@ -52,15 +52,13 @@ last es/hu: understand
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
 - [ ] fix slug bugs like `dig: dig1` with a lookup object – checked links:
   - [x] A1
-  - [ ] A2
+  - [x] A2
   - [ ] B1
   - [ ] B2
   - [ ] C1
   - [ ] C2
   - [ ] ?
   - [ ] include slugs in `verbList`?
-
-
 - [ ] bring back level marker for wider screens
 - [ ] optimize text-to-speech for Android
 - [ ] reading:

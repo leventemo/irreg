@@ -90,7 +90,11 @@ export class View {
       'drink': 'drink_2',
       'lie': 'lie1_1',
       'sing': 'sing_2',
-      'string': 'string_2'
+      'string': 'string_2',
+      'dream': 'dream_2',
+      'lead': 'lead1_1',
+      'light': 'light_3',
+      'ring': 'ring2_1'
     }
 
     const oaldSlug = oaldSlugLookup[verb1String] || verb1String;
