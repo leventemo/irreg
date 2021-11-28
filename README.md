@@ -53,9 +53,9 @@ last es/hu: understand
 - [ ] fix slug bugs like `dig: dig1` with a lookup object – checked links:
   - [x] A1
   - [x] A2
-  - [ ] B1
-  - [ ] B2
-  - [ ] C1
+  - [x] B1
+  - [x] B2
+  - [ ] C1 checked:
   - [ ] C2
   - [ ] ?
   - [ ] include slugs in `verbList`?

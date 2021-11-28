@@ -91,10 +91,22 @@ export class View {
       'lie': 'lie1_1',
       'sing': 'sing_2',
       'string': 'string_2',
+      /* A2 */
       'dream': 'dream_2',
       'lead': 'lead1_1',
       'light': 'light_3',
-      'ring': 'ring2_1'
+      'ring': 'ring2_1',
+      /* B1 */
+      'upset': 'upset_2',
+      /* B2 */
+      'forecast': 'forecast_2',
+      'input': 'input_2',
+      'mistake': 'mistake_2',
+      'output': 'output_2',
+      'speed': 'speed_2',
+      'spring': 'spring_2',
+      'tear': 'tear1_1',
+      'wind': 'wind2_2'
     }
 
     const oaldSlug = oaldSlugLookup[verb1String] || verb1String;
