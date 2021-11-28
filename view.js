@@ -88,7 +88,9 @@ export class View {
       'cost': 'cost_2',
       'do': 'do1_1',
       'drink': 'drink_2',
-      'lie': 'lie1_1'
+      'lie': 'lie1_1',
+      'sing': 'sing_2',
+      'string': 'string_2'
     }
 
     const oaldSlug = oaldSlugLookup[verb1String] || verb1String;
