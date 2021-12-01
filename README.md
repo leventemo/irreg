@@ -34,11 +34,12 @@ when labelling the levels:
 - [x] check printed OALD
 - [x] include links to OALD/Cambridge dictionaries in modals
 – [x] shorten -ed forms on long words + adjust pronunciation accordingly
-- [x] HU/SP translation for A1-A2-B1:
+- [x] HU/SP translation for A1-A2-B1
+- [ ] HU/SP translation for B2:
+- [ ] unclassifieds in English Profile
 - [ ] check "floodlight cases" – see above
 - [ ] asterisk a là OALD printed? – what about text-to-speech then?
 - [ ] example sentences
-- [ ] HU/SP translation for B2:
 
 last es/hu: understand
 
@@ -55,10 +56,11 @@ last es/hu: understand
   - [x] A2
   - [x] B1
   - [x] B2
-  - [ ] C1 checked:
+  - [x] C1
   - [ ] C2
   - [ ] ?
   - [ ] include slugs in `verbList`?
+- [ ] fix bug in the slug bug: bid & bid
 - [ ] bring back level marker for wider screens
 - [ ] optimize text-to-speech for Android
 - [ ] reading:

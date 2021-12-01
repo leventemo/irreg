@@ -106,7 +106,11 @@ export class View {
       'speed': 'speed_2',
       'spring': 'spring_2',
       'tear': 'tear1_1',
-      'wind': 'wind2_2'
+      'wind': 'wind2_2',
+      /* C1 */
+      'remake': 'remake_2',
+      'spotlight': 'spotlight_2',
+      'test-drive': 'test-drive_2'
     }
 
     const oaldSlug = oaldSlugLookup[verb1String] || verb1String;
