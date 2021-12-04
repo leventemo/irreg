@@ -110,7 +110,29 @@ export class View {
       /* C1 */
       'remake': 'remake_2',
       'spotlight': 'spotlight_2',
-      'test-drive': 'test-drive_2'
+      'test-drive': 'test-drive_2',
+      'floodlight': 'floodlight_2',
+      'resit': 'resit_2',
+      'sow': 'sow1',
+      /*?*/
+      'awake': 'awake_2',
+      'backlight': 'backlight_2',
+      'drip-feed': 'drip-feed_2',
+      'green-light': 'green-light_2',
+      'hamstring': 'hamstring_2',
+      'inset': 'inset_2',
+      'mishit': 'mishit_2',
+      'overrun': 'overrun_2',
+      'overspend': 'overspend_2',
+      'relay': 'relay2',
+      'rerun': 'rerun_2',
+      'retread': 'retread_2',
+      'saw': 'saw_2',
+      'shit': 'shit_3',
+      'shoe': 'shoe_2',
+      'slit': 'slit_2',
+      'stave': 'stave_2',
+      'wet': 'wet_2'
     }
 
     const oaldSlug = oaldSlugLookup[verb1String] || verb1String;

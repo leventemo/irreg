@@ -51,16 +51,13 @@ last es/hu: understand
 - [x] set up layout on modals
 - [x] style links in modals
 - [x] fine-tune responsive verb listing: left a rogue grid-column in there for DOM-traversing & formatting reasons: `0.001rem`
-- [ ] fix slug bugs like `dig: dig1` with a lookup object – checked links:
-  - [x] A1
-  - [x] A2
-  - [x] B1
-  - [x] B2
-  - [x] C1
-  - [ ] C2
-  - [ ] ?
-  - [ ] include slugs in `verbList`?
-- [ ] fix bug in the slug bug: bid & bid
+- [x] fix slug bugs like `dig: dig1` with a lookup object – checked links:
+- [ ] include slugs in `verbList`?
+- [ ] fix "bug in the slug bug":
+  - [ ] bid & bidi
+  - [ ] forego & forgo
+  - [ ] relay & relay, in Cambridge Dictionary
+- [ ] missing in Cambridge Dictionary: intercut, overfly
 - [ ] bring back level marker for wider screens
 - [ ] optimize text-to-speech for Android
 - [ ] reading:

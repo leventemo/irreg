@@ -2503,15 +2503,6 @@ const verbList = [
     hu: ''
   },
   {
-    verb1: 'unbind',
-    verb2: 'unbound',
-    verb3: 'unbound',
-    level: '?',
-    meaning: 'release someone or something from a rope, string, etc.',
-    es: '',
-    hu: ''
-  },
-  {
     verb1: 'underbid',
     verb2: 'underbid',
     verb3: 'underbid',
