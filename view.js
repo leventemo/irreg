@@ -84,9 +84,13 @@ export class View {
 
     const oaldSlug = Utils.oaldSlugLookup[verb1String] || verb1String;
     const cambridgeSlug = verb1String;
+    const longmanSlug = verb1String;
+    const collinsEnglishSpanishSlug = verb1String;
 
     const oaldDomain = `https://www.oxfordlearnersdictionaries.com/definition/english/`
     const cambridgeDomain = `https://dictionary.cambridge.org/dictionary/english/`
+    const longmanDomain = `https://www.ldoceonline.com/dictionary/`
+    const collinsEnglishSpanishDomain = `https://www.collinsdictionary.com/dictionary/english-spanish/`
 
     // populate the modal with the new info
     modalInner.innerHTML = `
@@ -99,7 +103,9 @@ export class View {
     <p>see verb in:</p>
     <ul>
     <li><a href="${oaldDomain}${oaldSlug}">Oxford Advanced Learner's Dictionary</a></li>
+    <li><a href="${longmanDomain}${longmanSlug}">Longman Dictionary</a></li>
     <li><a href="${cambridgeDomain}${cambridgeSlug}">Cambridge Dictionary</a></li>
+    <li><a href="${collinsEnglishSpanishDomain}${collinsEnglishSpanishSlug}">Collins Spanish Dictionary</a></li>
     </ul>
     `;
     // show the modal
