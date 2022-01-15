@@ -58,9 +58,14 @@ last es/hu: understand
   - [ ] bid & bid
   - [ ] forego & forgo
   - [ ] relay & relay, in Cambridge Dictionary
-- [ ] missing in Cambridge Dictionary: intercut, overfly, etc.
+- [ ] missing in Cambridge Dictionary: intercut, overfly, etc.: disable their links?
 - [ ] bring back level marker for wider screens
-- [ ] optimize text-to-speech for Android
+- [ ] optimize text-to-speech for iPhone
+  - [ ] if no other way: popup message to say this text-to-speech is no good at the moment
+- [ ] optimize text-to-speech for Android/Samsung
+  - [ ] if no other way: popup message to say this text-to-speech is no good at the moment
+- [ ] optimize text-to-speech for Android/Huawei, etc
+  - [ ] if no other way: popup message to say this text-to-speech is no good at the moment
 - [ ] reading:
   + <https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/>
   + <https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/>
