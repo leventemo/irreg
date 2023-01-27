@@ -9,7 +9,7 @@ export class View {
     counter.innerHTML = data.length;
 
     if (data.length === 0) {
-      return listContainer.innerHTML = `<div class="verb-text">Click to select</div>`;
+      return listContainer.innerHTML = `<div class="verb-text">Click to select</div><div class="verb-text">You might need to change your language settings to English on your device.</div>`;
     };
 
     if (!window.speechSynthesis) {
